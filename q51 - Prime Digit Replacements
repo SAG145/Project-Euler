@@ -1,0 +1,80 @@
+import math
+import copy
+def is_prime(n):
+    if n % 2 == 0 and n != 2:
+        return False
+    for k in range(3,int(math.sqrt(n))+1,2):
+        if n % k == 0:
+            return False
+    return True
+
+def insert(str,ch,index):
+    str = str[:index] + ch + str[index+1:]
+    return str
+
+def pattern(n,r,replace):
+    pattern_list = []
+    index_list = []
+    for i in range(len(n)):
+        if n[i] == r:
+            index_list.append(i)
+    for group in sabgroups(index_list):
+        s = n
+        for index in group:
+            s = insert(s,"?",index)
+        pattern_list.append(s)
+    return pattern_list
+
+def sabgroups(lst):
+    if len(lst) == 1:
+        return [lst]
+    else:
+        groups = []
+        for k in lst:
+            c = copy.copy(lst)
+            c.remove(k)
+            for sg in sabgroups(c):
+                if sg not in groups:
+                    groups.append(sg)
+        groups.append(lst)
+        return groups
+
+def replace(str,orig,rep):
+    s = ""
+    for k in str:
+        if k == orig:
+            s += rep
+        else:
+            s += k
+    return s
+
+def family_primes(pattern):
+    p = 0
+    if pattern[0] != "?":
+        for k in range(10):
+            if is_prime(int(replace(pattern,"?",str(k)))):
+                p += 1
+    else:
+        for k in range(1,10):
+            if is_prime(int(replace(pattern,"?",str(k)))):
+                p += 1
+    return p
+
+breaking = False
+for p in range(11,10**7,2):
+    if breaking:
+        break
+    if is_prime(p):
+        s = str(p)
+        char_list = []
+        for c in s:
+            if c not in char_list:
+                char_list.append(c)
+                pattern1 = pattern(s,c,"?")
+                for p1 in pattern1:
+                    if family_primes(p1) == 8:
+                        print(p)
+                        breaking = True
+                        break
+
+#answer = 121313
