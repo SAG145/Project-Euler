@@ -1,0 +1,23 @@
+import math
+def two_penta(n):
+    c = int(math.sqrt(n/3))
+    while 3*c**2 - c < n + 1:
+        if 3*c**2 - c == n:
+            return True
+        c += 1
+    return False
+
+breaking = False
+for a in range(2,10000):
+    if breaking:
+        break
+    for b in range(1,a):
+        penta21 = 3*a**2 - a
+        penta22 = 3*b**2 - b
+        if two_penta(penta21 + penta22):
+            if two_penta(penta21 - penta22):
+                print((penta21 - penta22)//2)
+                breaking = True
+                break
+
+#answer = 5482660
