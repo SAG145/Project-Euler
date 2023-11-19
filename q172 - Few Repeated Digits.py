@@ -1,5 +1,3 @@
-from time import perf_counter
-start = perf_counter()
 def factorial(n):
     if n == 0:
         return 1
@@ -26,6 +24,4 @@ for d0 in range(4):
                                             digits = [d0, d1, d2, d3, d4, d5, d6, d7, d8, d9]
                                             permutations += factorial(18) // factorial_list(digits) * (18 - d0) // 18
 print(permutations)
-stop = perf_counter()
-print(stop-start)
 #answer = 227485267000992000
