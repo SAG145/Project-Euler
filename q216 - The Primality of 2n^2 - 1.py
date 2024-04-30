@@ -23,45 +23,17 @@ def is_prime(n):
             return False
     return True
 
-# def prob_prime(n):
-#     max_power2 = 2
-#     while (n - 1) % 2**max_power2 == 0:
-#         max_power2 += 1
-#     max_power2 -= 1
-#     a = n // 2**max_power2
-#     for i in range(200):
-#         r = random.randrange(2,n)
-#         m = r**a % n
-#         if m != 1 and m != -1:
-#             found = False
-#             j = 1
-#             while j < max_power2 and not found:
-#                 if r ** (2 ** j * a) % n == n - 1:
-#                     found = True
-#                 j += 1
-#             if not found:
-#                 return False
-#     return True
+def power_mod(base,power,mod):
+    if power == 1:
+        return base % mod
+    a = power_mod(base,power // 2,mod)
+    return base**(power % 2)*a**2 % mod
 
 def prob_prime1(n):
     for k in range(10):
-        if pow(random.randrange(2,n),n - 1,n) != 1:
+        if power_mod(random.randrange(2,n),n - 1,n) != 1:
             return False
     return True
-
-# x = 0
-# for i in range(3,10**6):
-#     if prob_prime1(i):
-#         print(i)
-#         x += 1
-# print(x)
-# tp = 0
-# for k in range(2,10**5 + 1):
-#     if is_prime(2*k**2 - 1):
-#         print(k,2*k**2 - 1)
-#         tp += 1
-# print(tp)
-# print(perf_counter() - start)
 
 def mod_p(p):
     h = p // 2 + 1
@@ -97,16 +69,6 @@ def t_primes(maxi):
         if n % 100000 == 0:
             print(n,perf_counter() - start)
         if not invalid(n,invalids):
-            # prime = True
-            # i = 0
-            # t = 2 * n ** 2 - 1
-            # sqrt1 = math.floor(math.sqrt(t)) + 1
-            # while prime and primes[i] < sqrt1:
-            #     if t % primes[i] == 0:
-            #         prime = False
-            #     i += 1
-            # if prime:
-            #     x += 1
             if prob_prime1(2*n**2 - 1):
                 x += 1
     return x
