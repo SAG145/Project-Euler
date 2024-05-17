@@ -123,6 +123,6 @@ def least_n(min_solutions):
         solution *= primes[i]**solution_powers[i]
     return solution
 
-print(least_n(1000))
+print(least_n(4000000))
 
-#answer = 180180
+#answer = 9350130049860600
