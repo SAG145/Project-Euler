@@ -29,3 +29,5 @@ for i in range(len(diff) - 1):
             if perfect_square(diff[i + 1][1] - diff[i][1]):
                 print(diff[i][0] + diff[i][1] + diff[i + 1][1])
                 break
+
+#answer = 1006193
