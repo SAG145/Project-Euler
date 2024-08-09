@@ -120,3 +120,4 @@ for i in range(len(all_scores) - 1):
         print(all_scores[i][2][8:],all_scores[i + 1][2][:8])
 
 #answer = 4640261571849533
+#זמן הרצה - 26 דקות
