@@ -1,5 +1,3 @@
-from time import perf_counter
-start = perf_counter()
 def insert(str1,index,ch):
     return str1[:index] + str(ch) + str1[index + 1:]
 
@@ -121,4 +119,4 @@ for i in range(len(all_scores) - 1):
     if all_scores[i][0] == all_scores[i + 1][0]:
         print(all_scores[i][2][8:],all_scores[i + 1][2][:8])
 
-print(perf_counter() - start)
+#answer = 4640261571849533
