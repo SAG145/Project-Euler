@@ -10,8 +10,6 @@ def all_min_pf_below_n(n):
                     min_pf[l] = (k,)
     return min_pf
 
-
-
 def all_prime_factorisations_below_n(n):
     min_pf = all_min_pf_below_n(n)
     pf = [0,[]]
