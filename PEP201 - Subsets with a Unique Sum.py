@@ -35,3 +35,4 @@ for k in range(1,101):
 print(sum(U(S,50)))
 
 #answer = 115039000
+#זמן הרצה - 3 דקות
