@@ -61,3 +61,4 @@ for d in suma:
 print(s)
 
 #answer = 5a411d7b
+#זזמן הרצה - 67  דקות
