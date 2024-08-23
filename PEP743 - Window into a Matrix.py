@@ -1,5 +1,3 @@
-from time import perf_counter
-start = perf_counter()
 def extended_Euclid(n,mod):
     if n < mod:
         return extended_Euclid(mod,n)[::-1]
@@ -30,6 +28,5 @@ for ones in range(0,k + 1,2):
     a += facs[-1]*inverses[ones]*inverses[(k - ones) // 2]**2*pow(power,ones,mod)
 
 print(a % mod)
-print(perf_counter() - start)
 #answer = 259158998
 #
