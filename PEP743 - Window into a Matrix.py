@@ -29,4 +29,4 @@ for ones in range(0,k + 1,2):
 
 print(a % mod)
 #answer = 259158998
-#
+#זמן הרצה - עשר דקות
