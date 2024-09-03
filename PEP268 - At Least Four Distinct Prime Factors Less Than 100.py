@@ -1,6 +1,4 @@
 import math
-from time import perf_counter
-start = perf_counter()
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -33,7 +31,6 @@ def mult_list(lst):
 def choose(n,k):
     return math.factorial(n) // math.factorial(k) // math.factorial(n - k)
 
-
 lst = [0,0,0,0,1]
 for k in range(5,14):
     a = 0
@@ -49,4 +46,4 @@ for g in subs:
 
 print(div_by_4)
 
-print(perf_counter() - start)
+#answer = 785478606870985
