@@ -47,3 +47,4 @@ for g in subs:
 print(div_by_4)
 
 #answer = 785478606870985
+#זמן הרצה - דקה וחצי
