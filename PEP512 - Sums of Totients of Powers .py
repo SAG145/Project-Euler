@@ -1,6 +1,4 @@
 import math
-from time import perf_counter
-start = perf_counter()
 def prime_factors(n,primes_list = [],m = 2):
     if n == 1:
         return primes_list
