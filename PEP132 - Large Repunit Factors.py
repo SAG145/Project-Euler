@@ -94,4 +94,4 @@ for p in primes:
         break
 
 #answer = 843296
-#זמן הרצה - 7 דקות
+#7min
