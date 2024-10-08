@@ -67,4 +67,4 @@ for d in range(10):
 print(x)
 
 #answer = 612407567715
-#1min 30s
+#1min 30sec
