@@ -1,6 +1,5 @@
 import math
 def F(x):
-    # return 2**(30.403243784-x**2)*10**-9
     return math.floor(2 ** (30.403243784 - x ** 2)) * 10 ** -9
 
 def u(n,values_list,index_list):
