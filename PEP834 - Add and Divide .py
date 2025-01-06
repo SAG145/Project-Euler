@@ -84,4 +84,4 @@ def U(N):
 print(U(1234567))
 
 #answer = 1254404167198752370
-#2 min and 30 sec
+#2 minutes and 30 seconds
