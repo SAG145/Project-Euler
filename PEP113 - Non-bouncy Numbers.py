@@ -1,13 +1,25 @@
-import copy
-list1 = [1]*10
-sum1 = 0
-for k in range(99):
-    lst = copy.copy(list1)
-    for d in range(10):
-        lst[d] = sum(list1[:d + 1])
-    list1 = copy.copy(lst)
-    sum1 += sum(list1)
-print(sum1 + sum(list1) - 10*100 + 9)
+def next(lst):
+    new = [0]*10
+    for i in range(10):
+        for j in range(i,10):
+            new[i] += lst[-1][j]
+    lst.append(new)
+
+def dec(n):
+    for i in range(1,len(lst)):
+        if int(n[i])  >int(n[i - 1]):
+            return False
+    return True
+
+lst = [[0] + [1]*9]
+for i in range(99):
+    next(lst)
+
+s = 0
+for t in lst:
+    s += sum(t) + sum(t[1:])
+
+print(s - 9*100)
 
 #answer = 51161058134250
-#לא ברור למה הקוד עובד
+#This code was written after solving the problem because it was unclear why the original code worked
