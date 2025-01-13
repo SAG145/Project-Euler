@@ -62,7 +62,6 @@ def last_m_larger(n1,n2,d1,d2,sqrt1,r1 = 0,r2 = 1000):
         return last_m_larger(n1,n2,d1,d2,sqrt1,r1,m)
 
 def best_appro(n,bound):
-    bi = -1
     af = []
     cf1 = cf(n)
     cf1 += cf1[1:] * (100 // len(cf1))
@@ -70,17 +69,13 @@ def best_appro(n,bound):
         f = cf_to_fraction(cf1[:i])
         if f.denominator < bound:
             af.append(f)
-            if f.denominator > bound and bi == -1:
-                bi = i - 2
         else:
             break
 
-    p = af[1].numerator
-    q = af[1].denominator
     sqrt1 = cf_to_fraction(cf1 + cf1[1:])
-    den = q
-    md = abs(Fraction(p,q) - sqrt1)
-    for j in range(bi,len(af) - 1):
+    den = -1
+    md = 1
+    for j in range(len(af) - 3,len(af) - 1):
         n1,n2 = af[j].numerator,af[j + 1].numerator
         d1,d2 = af[j].denominator,af[j + 1].denominator
         if Fraction(n1,d1) < sqrt1:
@@ -109,4 +104,4 @@ for n in range(10**5 + 1):
 print(s)
 
 #answer = 57060635927998347
-#6 minutes
+#5 minutes and 30 secnds
