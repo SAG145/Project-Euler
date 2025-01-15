@@ -11,7 +11,7 @@ def all_primes_m_to_n(m,n):
             primes_list.append(k)
     return primes_list
 
-def e_magniv(n):
+def digits_sum(n):
     sum = 0
     while n > 0:
         sum += n % 10
@@ -20,7 +20,7 @@ def e_magniv(n):
 
 def saving_step(n):
     saving = 0
-    target = e_magniv(n)
+    target = digits_sum(n)
     while target > 0:
         saving += num_of_1(and_bin(target % 10,n % 10))
         target = target // 10
@@ -50,7 +50,7 @@ def final_saving(n,s = 0):
         return s + saving[n]
     if n < 10:
         return s
-    return final_saving(e_magniv(n),s + saving_step(n))
+    return final_saving(digits_sum(n),s + saving_step(n))
 
 digital_list = ["1110111","0010010","1011101","1011011","0111010","1101011","1101111","1110010","1111111","1111011"]
 saving = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 8, 6, 6, 10, 6, 8, 12, 18, 8, 4, 4, 8, 6, 6, 12, 8, 18, 8, 8, 4, 6, 8, 6, 10, 10, 16, 10, 20, 6, 2, 8, 6, 8, 10, 18, 10, 22, 20, 8, 2, 4, 10, 8, 14, 6, 14, 18, 16, 10, 4, 10, 10, 12]
