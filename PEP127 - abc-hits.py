@@ -44,4 +44,4 @@ def sigma_c(maxi):
 print(sigma_c(1000))
 
 #answer = 18407904
-#זמן הרצה - רבע שעה
+#15 minutes
