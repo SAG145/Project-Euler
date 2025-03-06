@@ -1,4 +1,5 @@
 import math
+
 def gcd(x,y):
     while x % y != 0:
         a = x
