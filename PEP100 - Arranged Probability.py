@@ -1,4 +1,5 @@
 import math
+
 def solution(c):
     a = (8 + 4*c) // 16
     return (a,int((1 + math.sqrt(8*a**2 + 8*a + 1)) / 2))
