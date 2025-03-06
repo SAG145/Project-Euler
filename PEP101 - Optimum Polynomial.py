@@ -21,4 +21,5 @@ for i in range(1,11):
         poli[-j].append(poli[-j + 1][-1] + poli[-j][-1])
     sum1 += poli[0][-1]
 print(sum1)
+
 #answer = 37076114526
