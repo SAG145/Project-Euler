@@ -85,5 +85,5 @@ for d in range(10):
 print(x)
 
 #answer = 612407567715
-#7min and 30sec
+#7 minutes and 30 seconds.
 #TThe code was changed a bit after solving the problem because the original solution used a library.
