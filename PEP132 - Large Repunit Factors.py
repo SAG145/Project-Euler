@@ -94,4 +94,4 @@ for p in primes:
         break
 
 #answer = 843296
-#7min
+#7 minutes
