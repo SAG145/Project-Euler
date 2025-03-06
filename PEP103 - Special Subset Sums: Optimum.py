@@ -1,5 +1,3 @@
-from time import perf_counter
-start = perf_counter()
 def subgroups(lst):
     if len(lst) == 1:
         return [lst,[]]
