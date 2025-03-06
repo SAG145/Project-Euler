@@ -7,7 +7,7 @@ def next(lst):
 
 def dec(n):
     for i in range(1,len(lst)):
-        if int(n[i])  >int(n[i - 1]):
+        if int(n[i]) > int(n[i - 1]):
             return False
     return True
 
@@ -22,4 +22,4 @@ for t in lst:
 print(s - 9*100)
 
 #answer = 51161058134250
-#This code was written after solving the problem because it was unclear why the original code worked
+#This code was written after solving the problem because it was unclear why the original code worked.
