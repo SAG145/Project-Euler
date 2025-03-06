@@ -9,6 +9,7 @@ def bouncy(n):
         if s[d2] > s[d2+1]:
             increasing = False
     return not (increasing or decreasing)
+    
 num = 100
 bouncy_count = 0
 while True:
