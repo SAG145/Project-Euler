@@ -1,6 +1,7 @@
 import math
+
 b_list = [16,272,4896]
-l_list = [17,305,5473] #הקוד נכתב לאחר בדיקות רבות של התכונות שדרושות מ b בעזרת קוד יסודי
+l_list = [17,305,5473] #The code was written after extensive testing of the properties needed from b using elementary code.
 d_list = [18,323]
 k = 2
 j = 3
