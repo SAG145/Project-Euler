@@ -1,5 +1,6 @@
 import math
 import copy
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -93,7 +94,6 @@ def num_solutions(lst):
         t = opti_mult_list(minus_lists(lst,l))
         solutions += mult_list(l)*t
     return (solutions + 1) // 2
-
 
 def least_n(min_solutions):
     primes = all_primes_below_n(100)
