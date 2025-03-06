@@ -1,5 +1,3 @@
-from time import perf_counter as pc
-start = pc()
 def u(n):
     s = 0
     for d in range(11):
@@ -23,5 +21,4 @@ for i in range(1,11):
         poli[-j].append(poli[-j + 1][-1] + poli[-j][-1])
     sum1 += poli[0][-1]
 print(sum1)
-print(pc() - start)
 #answer = 37076114526
