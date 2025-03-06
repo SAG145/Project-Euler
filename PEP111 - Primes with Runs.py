@@ -1,6 +1,23 @@
-from itertools import permutations
 import math
 import copy
+
+def insert(k,lst):
+    new = []
+    lst1 = (k,)
+    for i in range(len(lst)):
+        new.append(lst[:i] + lst1 + lst[i:])
+    new.append(lst + lst1)
+    return new
+
+def permutations(lst):
+    if len(lst) == 1:
+        return [(lst[0],)]
+    else:
+        perm_list = []
+        list1 = permutations(lst[1:])
+        for perm in list1:
+            perm_list += insert(lst[0],perm)
+        return perm_list
 
 def is_prime(n):
     if n % 2 == 0 and n != 2:
@@ -31,11 +48,12 @@ def M(n,d):
                 while a > 0:
                     digits.append(a % 10)
                     a = a // 10
-                options = list(dict.fromkeys(permutations(digits)))
-                for tup in options:
-                    if tup[0] != 0:
-                        if is_prime(tuple_to_number(tup)):
-                            return n - k
+                if sum(digits) % 3 != 0:
+                    options = list(dict.fromkeys(permutations(digits)))
+                    for tup in options:
+                        if tup[0] != 0:
+                            if is_prime(tuple_to_number(tup)):
+                                return n - k
 
 def S(n,d):
     m = M(n,d)
@@ -51,15 +69,15 @@ def S(n,d):
             while a > 0:
                 digits.append(a % 10)
                 a = a // 10
-            options = list(dict.fromkeys(permutations(digits)))
-            for tup in options:
-                if tup[0] != 0:
-                    num = tuple_to_number(tup)
-                    if is_prime(num) and num not in primes:
-                        sum1 += num
-                        primes.append(num)
+            if sum(digits) % 3 != 0:
+                options = list(dict.fromkeys(permutations(digits)))
+                for tup in options:
+                    if tup[0] != 0:
+                        num = tuple_to_number(tup)
+                        if is_prime(num) and num not in primes:
+                            sum1 += num
+                            primes.append(num)
     return sum1
-
 
 x = 0
 for d in range(10):
@@ -67,4 +85,5 @@ for d in range(10):
 print(x)
 
 #answer = 612407567715
-#1min 30sec
+#7min and 30sec
+#TThe code was changed a bit after solving the problem because the original solution used a library.
