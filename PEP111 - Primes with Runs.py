@@ -86,4 +86,4 @@ print(x)
 
 #answer = 612407567715
 #7 minutes and 30 seconds.
-#TThe code was changed a bit after solving the problem because the original solution used a library.
+#The code was changed a bit after solving the problem because the original solution used a library.
