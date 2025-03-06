@@ -3,18 +3,15 @@ def f2(n, v2, i2):
         return v2[n]
     return f2(n - 1, v2, i2) + f2(n - 2, v2, i2) + 1
 
-
 def f3(n, v3, i3):
     if n < i3 + 1:
         return v3[n]
     return f3(n - 1, v3, i3) + f3(n - 3, v3, i3) + 1
 
-
 def f4(n, v4, i4):
     if n < i4 + 1:
         return v4[n]
     return f4(n - 1, v4, i4) + f4(n - 4, v4, i4) + 1
-
 
 i2 = 4
 v2 = [0, 0, 1, 2, 4]
