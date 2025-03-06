@@ -1,4 +1,5 @@
 import math
+
 single = 0
 limit = 50*10**6
 lst1 = [0]*(limit + 1)
@@ -19,4 +20,4 @@ while change != 100:
 print(single)
 
 #answer = 2544559
-#זמן הרצה - 14 דקות
+#14 minutes
