@@ -43,4 +43,4 @@ for d in range(2,10):
 print(x)
 
 #answer = 21295121502550
-#זמן הרצה - 7 וחצי דקות
+#7 minutes and 30 seconds
