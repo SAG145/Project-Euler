@@ -23,4 +23,4 @@ for a in range(10):
 print(ways)
 
 #answer = 7130034
-#זמן הרצה - 8 דקות
+#8 minutes
