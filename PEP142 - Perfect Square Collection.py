@@ -1,4 +1,5 @@
 import math
+
 def perfect_square(n):
     return math.isqrt(n)**2 == n
 
