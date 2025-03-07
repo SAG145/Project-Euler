@@ -1,4 +1,5 @@
 import random
+
 def prob_prime(n):
     for k in range(20):
         if pow(random.randrange(2,n),n - 1,n) != 1:
@@ -65,4 +66,4 @@ def S(n):
 print(S(5678027) + S(7208785))
 
 #answer = 322303240771079935
-#זמן הרצה - 3 וחצי דקות
+#3minutes and 30 seconds
