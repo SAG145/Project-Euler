@@ -1,4 +1,5 @@
 import copy
+
 def num_of_times(lst,elem):
     n = 0
     for k in lst:
@@ -6,6 +7,7 @@ def num_of_times(lst,elem):
             n += 1
     return n
 single_lst = [0,0,0,0,0,0]
+
 def new_envelope(envelope,single,p,q):
     if num_of_times(envelope,1) == len(envelope):
         single_lst[single] += p / q
