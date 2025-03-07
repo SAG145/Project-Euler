@@ -1,5 +1,6 @@
 import math
 import copy
+
 def factorial_list(lst):
     m = 1
     for i in lst:
