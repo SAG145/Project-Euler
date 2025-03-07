@@ -1,5 +1,6 @@
 import copy
 import math
+
 def insert(k,lst):
     new = []
     lst1 = [k]
