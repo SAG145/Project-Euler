@@ -1,5 +1,6 @@
 import fractions
 import copy
+
 def partitions(n):
     if n == 1:
         return [[1]]
@@ -60,4 +61,4 @@ for c in capacitors:
 print(len(list(dict.fromkeys(all_capa))))
 
 #answer = 3857447
-#זמן ריצה - אחת עשרה וחצי דקות
+#11minutes and 30 seconcds
