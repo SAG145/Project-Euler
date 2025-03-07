@@ -1,4 +1,5 @@
 import math
+
 def F(x):
     return math.floor(2 ** (30.403243784 - x ** 2)) * 10 ** -9
 
