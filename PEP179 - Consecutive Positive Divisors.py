@@ -1,4 +1,5 @@
 import math
+
 def divisors(n):
     num_of_divisors = 0
     if int(math.sqrt(n)) == math.sqrt(n):
@@ -6,6 +7,7 @@ def divisors(n):
         for l in range(1,int(math.sqrt(n))):
             if n%l==0:
                 num_of_divisors += 2
+                
     else:
         for l in range(1,int(math.sqrt(n)) + 1):
             if n%l==0:
@@ -23,4 +25,4 @@ for i in range(len(divi_list) - 1):
 print(x)
 
 #answer = 986262
-#זמן ריצה - בערך חצי שעה
+# 30 minutes
