@@ -1,5 +1,6 @@
 import math
 from math import factorial
+
 def choose(n,k):
     return factorial(n)//factorial(k)//factorial(n-k)
 
@@ -9,6 +10,7 @@ def is_squarefree(n):
         for k in range(3,rt + 10, 2):
             if n % (k ** 2) == 0:
                 return False
+                
     else:
         for k in range(2, rt + 10):
             if n % (k ** 2) == 0:
