@@ -1,4 +1,5 @@
 import math
+
 lst1 = [0]*(10**6 + 1)
 for b in range(1,10**6):
     for a in range(math.ceil(b / 3),math.floor(1/3*(math.sqrt(4*b**2 + 3000000) - b)) + 1):
