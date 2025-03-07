@@ -3,4 +3,5 @@ x = 0
 for i in range(0,4990,50):
     x += int(a[i:i+50])
 print(str(x)[:10])
+
 #answer = 5537376230
