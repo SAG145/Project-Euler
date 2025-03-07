@@ -1,4 +1,5 @@
 import math
+
 x = 0
 def func(n):
     x = 0
@@ -7,6 +8,7 @@ def func(n):
         for b in range(2,sqrt_delta - a + 1,2):
             if b**2 + 2*a*b < n + 1:
                 x += 1
+                
     return x
 
 print(func(1000000))
