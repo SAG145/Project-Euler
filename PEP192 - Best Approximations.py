@@ -104,4 +104,4 @@ for n in range(10**5 + 1):
 print(s)
 
 #answer = 57060635927998347
-#5 minutes and 30 secnds
+#5 minutes and 30 seconds
