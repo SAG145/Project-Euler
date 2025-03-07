@@ -1,4 +1,5 @@
 import math
+
 t_list = [0]*(10**6 + 1)
 for k in range(3,500002):
     if k > 1000:
