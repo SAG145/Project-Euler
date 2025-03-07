@@ -1,4 +1,5 @@
 import copy
+
 from time import perf_counter
 start = perf_counter()
 def sum_indexes(lst,start,end):
@@ -36,8 +37,6 @@ def max_sum_sub(lst,checkpoints):
                 starts.remove(checkpoints[j])
         i += 1
     return max_sum
-
-
 
 verticals = []
 horizontals = []
@@ -157,4 +156,4 @@ for d in diagonals:
 print(max_sum)
 
 #answer = 52852124
-#זמן הרצה - 6 דקות
+#6 minutes
