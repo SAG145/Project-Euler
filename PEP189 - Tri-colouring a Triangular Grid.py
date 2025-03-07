@@ -1,5 +1,6 @@
 import math
 import copy
+
 def max_log3(n):
     a = 0
     while 3**a < n + 1:
