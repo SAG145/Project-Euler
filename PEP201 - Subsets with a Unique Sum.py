@@ -1,4 +1,5 @@
 import copy
+
 def next_square(s,sums,sum_limit,len_limit,k):
     new = []
     for sumi in sums:
@@ -35,4 +36,4 @@ for k in range(1,101):
 print(sum(U(S,50)))
 
 #answer = 115039000
-#זמן הרצה - 3 דקות
+# 3 minutes
