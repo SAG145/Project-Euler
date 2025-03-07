@@ -4,7 +4,6 @@ def fib3(n, values, index):
     else:
         return fib3(n - 1, values, index) + fib3(n - 2, values, index) + fib3(n - 3, values, index)
 
-
 def prize_strings(days):
     values = [1, 1, 2]
     index = 1
