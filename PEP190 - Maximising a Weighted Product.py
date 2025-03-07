@@ -1,5 +1,6 @@
 from fractions import Fraction
 import math
+
 def tri_num(n):
     return n*(n + 1) // 2
 
