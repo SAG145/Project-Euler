@@ -33,6 +33,7 @@ def larger(n,f):
 
 def smaller(n,f):
     return n*f[1] < f[0]
+    
 def true_inter(i,j):
     k = lines[i]
     l = lines[j]
