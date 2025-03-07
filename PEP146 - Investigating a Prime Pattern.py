@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -45,4 +46,4 @@ def such_integers(maxi):
 print(such_integers(150*10**6))
 
 #answer = 676333270
-#זמן הרצה - 5 דקות
+#5 minutes
