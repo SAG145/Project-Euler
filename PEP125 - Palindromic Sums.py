@@ -1,4 +1,5 @@
 import math
+
 def palindromic(n):
     s = str(n)
     return s == s[::-1]
