@@ -1,4 +1,5 @@
 import math
+
 limit = 2**50
 mobius = [""]*(math.isqrt(limit) + 1)
 for p in range(2,math.isqrt(limit) + 1):
