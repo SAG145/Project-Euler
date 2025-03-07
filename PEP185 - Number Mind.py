@@ -121,3 +121,4 @@ for i in range(len(all_scores) - 1):
 
 #answer = 4640261571849533
 #זמן הרצה - 26 דקות
+#26 minutes
