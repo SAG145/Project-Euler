@@ -14,5 +14,12 @@ def reversible(n):
         return True
     return False
 
+reversibles = 0
+for n in range(10**1,10**8):
+    if reversible(n):
+        reversibles += 1
+print(reversibles)
+
 #answer = 608720
-#נעזרתי בקוד למעלה ובתוצאות על מספרים קטנים יותר להגיע לתשובה
+#80 seconds
+#It is enough to check up to 10^8 because there are no reversible numbers with 9 digits.
