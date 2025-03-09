@@ -35,4 +35,4 @@ for i in range(18):
 print(sum(poss))
 
 #answer = 378158756814587
-#פתרתי את הבעיה אבל אז איבדתי את הקוד, כך שהקוד הזה נכתב אחרי הפתרון
+#This code was written after the problem was solved because the original code was lost.
