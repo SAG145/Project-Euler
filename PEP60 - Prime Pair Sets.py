@@ -76,4 +76,4 @@ for i in range(4,len(primes)):
                                     break
 
 #answer = 26033
-#קוד זה נכתב אחרי פתרון הבעיה מפני שהקוד המקורי אבד
+#This code was written after the problem was solved because the original code was lost.
