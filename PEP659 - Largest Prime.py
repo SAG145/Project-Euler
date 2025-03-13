@@ -1,5 +1,6 @@
 import math
 import random
+
 def prob_prime(n):
     for _ in range(10):
         if pow(random.randrange(2,n),n - 1,n) != 1:
@@ -17,7 +18,6 @@ def all_primes_below_n(n):
         if primes_bool[k]:
             primes_list.append(k)
     return primes_list
-
 
 def prime_factors(n,primes,primes_list = [],i = 0):
     if n == 1:
@@ -78,5 +78,6 @@ for n in range(1,10**7 + 1):
 
 print(s % 10**18)
 
-#answer = 238518915714422000
-#16 minutes
+#Answer = 238518915714422000
+#Time: 16:00
+

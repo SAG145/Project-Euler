@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n % 2 == 0 and n != 2:
         return False
@@ -109,4 +110,4 @@ for n in h:
 
 print(s % mod)
 
-#answer = 939087315
+#Answer = 939087315

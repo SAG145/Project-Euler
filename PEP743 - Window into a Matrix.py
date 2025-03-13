@@ -28,5 +28,7 @@ for ones in range(0,k + 1,2):
     a += facs[-1]*inverses[ones]*inverses[(k - ones) // 2]**2*pow(power,ones,mod)
 
 print(a % mod)
-#answer = 259158998
-#זמן הרצה - עשר דקות
+
+#Answer = 259158998
+
+#Time: 10:00

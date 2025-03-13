@@ -1,4 +1,5 @@
 import math
+
 def area_under_the_circle(x):
     a = math.sqrt(-(x - 2)*x)
     return (-x*(a - 2) + a + 2*math.asin(math.sqrt(1 - x/2))) / 2
@@ -17,4 +18,5 @@ while ratio(n) > 0.001:
     n += 1
 print(n)
 
-#answer = 2240
+#Answer = 2240
+

@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -31,4 +32,4 @@ for p in all_primes_below_n(10**8)[2:]:
     sigma += S(p)
 print(sigma)
 
-#answer = 139602943319822
+#Answer = 139602943319822

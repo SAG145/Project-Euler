@@ -11,5 +11,5 @@ while 2*i*(i + 1) <= limit:
 
 print(len(list(dict.fromkeys(stealthys))))
 
-#answer = 75737353
-#3 minutes and 30 seconds
+#Answer = 75737353
+#Time: 3:30

@@ -1,4 +1,5 @@
 from math import factorial
+
 def factorial_list(lst):
     m = 1
     for i in lst:
@@ -29,4 +30,5 @@ def S(n):
 
 print(S(18))
 
-#answer = 827850196
+#Answer = 827850196
+

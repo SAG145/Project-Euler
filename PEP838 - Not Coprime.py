@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n % 2 == 0 and n != 2:
         return False
@@ -70,4 +71,5 @@ for k in primes_3:
 sum = math.log(mult)
 print(round(sum*10**6) / 10**6)
 
-#answer = 250591.442792
+#Answer = 250591.442792
+

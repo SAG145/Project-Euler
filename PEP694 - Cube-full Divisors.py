@@ -1,6 +1,8 @@
 import math
 import sys
+
 sys.setrecursionlimit(10**5)
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -32,4 +34,4 @@ for cf in cube_fulls:
     s += limit // cf
 print(s)
 
-#answer = 1339784153569958487
+#Answer = 1339784153569958487

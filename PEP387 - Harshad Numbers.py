@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n % 2 == 0 and n != 2:
         return False
@@ -37,4 +38,5 @@ for har in strong:
             x += 10*har[0] + d
 print(x)
 
-#answer = 696067597313468
+#Answer = 696067597313468
+

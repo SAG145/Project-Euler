@@ -1,4 +1,5 @@
 import math
+
 target = 10**16
 s = 2*math.floor(math.sqrt(target))
 limit = math.floor(2*math.sqrt(target) / math.sqrt(163))
@@ -12,4 +13,5 @@ for y in range(1,limit + 1):
 
 print(s)
 
-#answer = 4921370551019052
+#Answer = 4921370551019052
+

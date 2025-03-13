@@ -1,4 +1,5 @@
 import math
+
 def all_min_pf_below_n(n):
     min_pf = []
     for _ in range(n):
@@ -55,5 +56,6 @@ for n in range(2,10**7 + 1):
 
 print(s)
 
-#answer = 39782849136421
-#זמן הרצה - רבע שעה
+#Answer = 39782849136421
+
+#Time: 15:00

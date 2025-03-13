@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -14,7 +15,6 @@ def prime_divisors_sum(n):
                 return False
     return True
 
-
 bool_primes = all_primes_below_n(10**8)
 primes = []
 for k in range(10**8):
@@ -26,4 +26,5 @@ for p in primes:
         sum += p - 1
 print(sum)
 
-#answer = 1739023853137
+#Answer = 1739023853137
+

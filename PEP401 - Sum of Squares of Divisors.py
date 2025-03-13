@@ -9,4 +9,5 @@ for n in range(1,10**7 + 1):
     x = (x + (a // n)*n**2) % mod
 print(x)
 
-#answer = 281632621
+#Answer = 281632621
+

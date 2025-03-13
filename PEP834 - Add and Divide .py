@@ -1,4 +1,5 @@
 import math
+
 def all_min_pf_below_n(n):
     min_pf = [0]*n
     for k in range(2,int(math.sqrt(n)) + 1):
@@ -83,5 +84,6 @@ def U(N):
 
 print(U(1234567))
 
-#answer = 1254404167198752370
-#2 minutes and 30 seconds
+#Answer = 1254404167198752370
+#Time: 2:30
+

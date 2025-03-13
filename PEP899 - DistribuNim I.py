@@ -1,4 +1,5 @@
 import math
+
 def L(n):
     s = 0
     p = 2**math.floor(math.log(n,2)) - 1
@@ -16,4 +17,4 @@ def L(n):
 
 print(L(7**17))
 
-#answer = 10784223938983273
+#Answer = 10784223938983273

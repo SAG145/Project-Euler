@@ -6,7 +6,8 @@ for i in range(3,101):
     ex *= i*(2*i - 1)
     ex //= i
     expected.append(ex)
-    
+
 print(expected[-1] % 987654319)
 
-#answer = 492401720
+#Answer = 492401720
+

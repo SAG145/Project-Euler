@@ -14,5 +14,6 @@ def tau(list):
         s += str(k)
     return s[:26]
 
-#answer = 2.223561019313554106173177
-#הגעתי לתשובה על ידי ניסוי ערכים שיצרתי בעזרת הקוד
+#Answer = 2.223561019313554106173177
+
+#I came to the answer by trial and error with values I created using the code.

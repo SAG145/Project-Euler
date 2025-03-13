@@ -1,6 +1,8 @@
 import math
 import sys
+
 sys.set_int_max_str_digits(10**8+2)
+
 def is_prime(n):
     if n % 2 == 0 and n != 2:
         return False
@@ -14,6 +16,7 @@ def factorial_mod(mod,n):
     for k in range(2,n+1):
         mult = (k*mult) % mod
     return mult
+
 def max_power_factorial(n,p):
     sum = 0
     a = p
@@ -38,7 +41,9 @@ def S(n):
             a = max_power_factorial(n,p)
             sum = (sum + p**(2*a)*(1 + sum)) % (10**9 + 9)
     return (sum + 1) % (10**9 + 9)
+
 print(S(10**8))
 
-#answer = 98792821
-#זמן ריצה - 12 דקות
+#Answer = 98792821
+
+#Time: 12:00

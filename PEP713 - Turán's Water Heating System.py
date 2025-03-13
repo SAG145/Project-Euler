@@ -1,6 +1,6 @@
 def c2(n):
     return n*(n - 1) // 2
-    
+
 def T(N,m):
     if m == 2:
         return c2(N)
@@ -16,4 +16,5 @@ def L(N):
 
 print(L(10**7))
 
-#answer = 788626351539895
+#Answer = 788626351539895
+

@@ -1,6 +1,8 @@
 import math
 import sys
+
 sys.setrecursionlimit(10**3 + 500)
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -66,5 +68,6 @@ for i in range(len(primes)):
 
 print(s[0])
 
-#answer = 476001479068717
-#זמן הרצה - דקה וחצי
+#Answer = 476001479068717
+
+#Time: 1:30

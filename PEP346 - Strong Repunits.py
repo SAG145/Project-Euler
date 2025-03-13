@@ -1,4 +1,5 @@
 import math
+
 def sum_of_strong_repunits(maxi):
     strong_repunits_nums = [1]
     for k in range(2,int(math.sqrt(maxi))+1):
@@ -13,5 +14,6 @@ def sum_of_strong_repunits(maxi):
 
 print(sum_of_strong_repunits(10**12))
 
-#answer = 336108797689259276
-#זמן ריצה - שעה וחצי
+#Answer = 336108797689259276
+
+#Time: 1:30:00

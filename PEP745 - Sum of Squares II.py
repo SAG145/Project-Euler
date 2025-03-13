@@ -1,4 +1,5 @@
 import math
+
 def num_of_square_free(limit,mobius):
     squarefree_numbers = limit
     for i in range(2,math.isqrt(limit) + 1):
@@ -7,7 +8,6 @@ def num_of_square_free(limit,mobius):
         elif mobius[i] == -1 or mobius[i] == "":
             squarefree_numbers -= limit // i ** 2
     return squarefree_numbers
-
 
 def S(N):
     mobius = [""] * (math.isqrt(N) + 1)
@@ -32,4 +32,4 @@ def S(N):
 
 print(S(10**14) % (10**9 + 7))
 
-#answer = 94586478
+#Answer = 94586478

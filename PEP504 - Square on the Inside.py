@@ -1,4 +1,5 @@
 import math
+
 def num_of_latice_points(x,y):
     points = 0
     for a in range(1,x):
@@ -37,4 +38,5 @@ def square_lattice_points(m):
 
 print(square_lattice_points(100))
 
-#answer = 694687
+#Answer = 694687
+

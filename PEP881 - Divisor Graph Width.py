@@ -1,5 +1,6 @@
 import math
 import copy
+
 def log(x,y):
     return math.log(y,int(x))
 
@@ -85,4 +86,4 @@ for i in range(len(pf)):
     num *= primes[i]**pf[i]
 print(num)
 
-#answer = 205702861096933200
+#Answer = 205702861096933200

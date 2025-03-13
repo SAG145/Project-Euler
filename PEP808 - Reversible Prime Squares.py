@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n % 2 == 0:
         return False
@@ -42,4 +43,6 @@ while num_of_squ != 50:
                     print(squ)
     k += 2
 print(sum)
-#answer = 3807504276997394
+
+#Answer = 3807504276997394
+

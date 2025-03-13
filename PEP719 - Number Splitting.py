@@ -1,5 +1,6 @@
 import copy
 import math
+
 def sabgroups(lst):
     if len(lst) == 1:
         return [lst]
@@ -33,6 +34,7 @@ list_subgroups = [[[1]], [[2], [1], [1, 2]], [[3], [2], [2, 3], [1], [1, 3], [1,
 # print(list_subgroups)
 # for g in list_subgroups:
 #     g.append(list[int(math.log(len(g),2))])
+
 def splitting(num,target):
     g = list_subgroups[len(str(num))-2]
     for group in g:
@@ -47,5 +49,6 @@ for k in range(4,10**6):
         x += k**2
 print(x)
 
-#answer = 128088830547982
-#זמן ריצה - בערך שעה ורבע
+#Answer = 128088830547982
+
+#Time: 1:15:00

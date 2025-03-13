@@ -1,4 +1,5 @@
 import math
+
 def S(n):
     l = math.floor(math.log(n,2))
     F_list = [0]*(l + 2)
@@ -24,4 +25,4 @@ def S(n):
 
 print(S(10**16))
 
-#answer = 501985601490518144
+#Answer = 501985601490518144

@@ -13,7 +13,6 @@ mod = 1000000007
 #     l = n // 9
 #     return (int(str(lst[n % 9][0]) + "9"*(l - 2) + str(lst[n % 9][1])) - 9*(l - 2)) % mod
 
-
 tl = [60,80,11,15,20,26,33,41,50]
 # def st(i):
 #     return (10**((i - 2) // 9)*tl[i % 9] - i - 6) % mod
@@ -49,6 +48,7 @@ for k in range(2,91):
     x += S_fib(k)
 print(x % mod)
 
-#answer = 922058210
-#ס base_s זה ה S הכי פשוט (ממש כמו בהגדרה של הבעיה) ממנו הגעתי ל S, ומשם בקלות ל st, ואז fib_S זה st רק עם חישוב חכם של החזקת 10 עם המודולו
-#בגלל סטיות לערכים קטנים, x שווה בהתחלה ל 72-
+#Answer = 922058210
+
+#base_s is the simplest S (just like in the problem definition) from which I got to S, and from there easily to st, then fib_S is st with a clever calculation of the power of 10 with the modulo.
+#Because of deviations to small values, x is initially equal to -72.

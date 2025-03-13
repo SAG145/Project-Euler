@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -38,4 +39,5 @@ def S(N):
 
 print(S(10**7))
 
-#answer = 11109800204052
+#Answer = 11109800204052
+

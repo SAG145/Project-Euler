@@ -10,5 +10,5 @@ for i in range(4,10**8):
 
 print(s)
 
-#answer = 72673459417881349
-#2 minutes and 30 seconds
+#Answer = 72673459417881349
+#Time: 2:30

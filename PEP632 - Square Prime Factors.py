@@ -9,8 +9,6 @@ def squarefree(limit,mobius):
             squarefree_numbers -= limit // i**2
     return squarefree_numbers
 
-
-
 limit = 10**16
 num_of_pf = [0]*(math.isqrt(limit) + 1)
 n_list = [0]*(math.isqrt(limit) + 1)
@@ -54,5 +52,5 @@ while ckn_list[l] != 0:
 
 print(m % (10**9 + 7))
 
-#answer = 728378714
-#12 minutes and 30 seconds
+#Answer = 728378714
+#Time: 12:30

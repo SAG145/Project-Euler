@@ -16,7 +16,6 @@ def dominating(n):
         sum = (sum + 9*choose(n-1,k-1)*9**(n-k) + choose(n-1,k)*9**(n-k+1)) % 1000000007
     return int(sum)
 
-
 def D(n):
     sum = 0
     for k in range(1,n + 1):
@@ -27,5 +26,6 @@ def D(n):
 
 print(D(2022))
 
-#answer = 471745499
-#זמן ריצה - בערך 35 דקות
+#Answer = 471745499
+
+#Time: 35:00

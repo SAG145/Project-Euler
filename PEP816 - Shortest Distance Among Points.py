@@ -1,4 +1,5 @@
 import math
+
 def distance(p1,p2):
     d = math.sqrt((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2)
     return d
@@ -25,4 +26,5 @@ def d(k):
 
 print(d(2000000))
 
-#answer = 20.880613018
+#Answer = 20.880613018
+

@@ -1,4 +1,5 @@
 import math
+
 def icbrt(n):
     if cube(n):
         return int(math.cbrt(n))
@@ -40,4 +41,4 @@ for k in range(2,icbrt(10**17) + 1):
 
 print(S(10**17,s_list,s_cubes))
 
-#answer = 1105985795684653500
+#Answer = 1105985795684653500

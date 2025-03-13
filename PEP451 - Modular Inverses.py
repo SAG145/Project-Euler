@@ -1,4 +1,5 @@
 import math
+
 def In(n):
     for t in range(2,n):
         if t**2 % n == 1:
@@ -69,5 +70,6 @@ for k in range(4,2*10**7 + 1):
 
 print(sigma)
 
-#answer = 153651073760956
-#זמן הרצה - 27 דקות
+#Answer = 153651073760956
+
+#Time: 27:00

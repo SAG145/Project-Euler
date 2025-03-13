@@ -27,4 +27,4 @@ for i in one_i(bin(s)[2:][::-1]):
     p += pow(2,i*a,mod)
 print(p % mod)
 
-#answer = 14063639
+#Answer = 14063639

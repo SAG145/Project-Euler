@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n % 2 == 0 and n != 2:
         return False
@@ -40,6 +41,7 @@ def period_len(list1):
             return k - period_list.index(current_period)
         period_list.append(current_period)
     return 0
+
 values = [0,1,1]
 index = [1,2]
 for k in range(3,1801):
@@ -54,7 +56,7 @@ for k in range(3,1801):
 #         break
 #     print(k,d,prime_factors_with_repetitions(d,[]))
 
-a = 16*9*5*11*31*41*61*2521 # מוצאים את a דרך הרצה של הלולאה
+a = 16*9*5*11*31*41*61*2521 #Find a by running the loop.
 
 def divisors(n):
     list1 = []
@@ -76,4 +78,4 @@ for d in divisors_a:
         x += d
 print(x)
 
-#answer = 44511058204
+#Answer = 44511058204

@@ -1,4 +1,5 @@
 import math
+
 def prime_factors(n,primes_list = [],m = 2):
     if n == 1:
         return primes_list
@@ -56,4 +57,5 @@ se_list[2] = 1
 
 print(s_tot_odd(5*10**8,slist,se_list))
 
-#answer = 50660591862310323
+#Answer = 50660591862310323
+

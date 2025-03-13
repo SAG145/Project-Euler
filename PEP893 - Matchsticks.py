@@ -1,7 +1,9 @@
 import math
+
 digits = [6,2,5,5,4,5,6,3,7,6]
 only_mult = [0]
 simple = [0]
+
 def simple_digits(n):
     match = 0
     while n > 0:
@@ -36,5 +38,6 @@ for n in range(1,target + 1):
 
 print(sum(all))
 
-#answer = 26688208
-#זמן הרצה - 4 וחצי דקות
+#Answer = 26688208
+
+#Time: 4:30

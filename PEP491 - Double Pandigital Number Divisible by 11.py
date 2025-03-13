@@ -1,5 +1,6 @@
 from math import factorial
 import copy
+
 def digits_to_digits_sum(digits):
     digits_sum = 0
     for d in range(1,10):
@@ -50,4 +51,5 @@ for i in range(1,71):
 
 print(double_pand_divi_11)
 
-#answer = 194505988824000
+#Answer = 194505988824000
+

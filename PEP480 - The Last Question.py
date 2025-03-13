@@ -1,5 +1,6 @@
 import copy
 from math import factorial
+
 letters = "abcdefghijklmnopqrstuvwxyz"
 phrase = "thereisasyetinsufficientdataforameaningfulanswer"
 pl = []
@@ -15,6 +16,7 @@ for l in letters:
 fac = []
 for k in range(50):
     fac.append(factorial(k))
+
 def permutations(lst):
     m = fac[sum(lst)]
     for k in lst:
@@ -87,5 +89,6 @@ def W(p):
 
 print(W(P("legionary") + P("calorimeters") - P("annihilate") + P("orchestrated") - P("fluttering")))
 
-#answer = turnthestarson
-#זמן הרצה - שעה
+#Answer = turnthestarson
+
+#Time: 1:00:00

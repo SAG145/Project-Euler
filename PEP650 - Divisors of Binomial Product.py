@@ -1,6 +1,5 @@
 import math
-from time import perf_counter
-start = perf_counter()
+
 def bool_all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -8,11 +7,6 @@ def bool_all_primes_below_n(n):
             for l in range(2*k,n,k):
                 primes_bool[l] = False
     return primes_bool
-    # primes_list = []
-    # for k in range(n):
-    #     if primes_bool[k]:
-    #         primes_list.append(k)
-    # return primes_list
 
 def prime_factors_with_repetitions(n,primes_list = [],m = 2):
     if n % 2 == 0:
@@ -105,5 +99,6 @@ def S(n):
 
 print(S(20000))
 
-#answer = 538319652
-#זמן ררצה - 3 דקות
+#Answer = 538319652
+
+#Time: 3:00

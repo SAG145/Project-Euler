@@ -1,4 +1,5 @@
 import math
+
 def pali(n):
     lst = []
     s = str(n)
@@ -26,4 +27,5 @@ while len(solutions) != 5:
     k += 1
 print(sum(solutions))
 
-#answer = 1004195061
+#Answer = 1004195061
+

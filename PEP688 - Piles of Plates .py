@@ -17,5 +17,5 @@ def S(n):
 
 print(S(10**16))
 
-#answer = 110941813
-#3min
+#Answer = 110941813
+#Time: 3:00

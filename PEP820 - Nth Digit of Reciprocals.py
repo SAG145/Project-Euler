@@ -9,4 +9,5 @@ def S(n):
 
 print(S(10**7))
 
-#answer = 44967734
+#Answer = 44967734
+

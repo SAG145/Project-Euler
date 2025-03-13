@@ -4,7 +4,7 @@ euler_coin = 10**25
 sum = 0
 last_k = 1
 k = 1
-while euler_coin > 0: #האלגוריתם נוצר לאחר הבנה של ה k'ים שנותנים eulercoin חדש בדרך יסודית
+while euler_coin > 0: #The algorithm was created after understanding the k's that give a new eulercoin in a fundamental way.
     l = 2
     while True:
         if (a*(k*l-last_k)) % b < euler_coin:
@@ -18,4 +18,5 @@ while euler_coin > 0: #האלגוריתם נוצר לאחר הבנה של ה k'�
             l += 1
 print(sum)
 
-#answer = 1517926517777556
+#Answer = 1517926517777556
+

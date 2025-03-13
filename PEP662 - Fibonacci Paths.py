@@ -1,4 +1,5 @@
 import math
+
 fib = [1,1]
 while fib[-1] < 1000001:
     fib.append(fib[-1] + fib[-2])
@@ -43,4 +44,6 @@ new_path(paths,steps,mod,0,1)
 
 print(paths[10000][10000])
 
-#זמן הרצה - 17 דקות
+#Answer = 860873428
+
+#Time: 17:00

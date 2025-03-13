@@ -1,4 +1,5 @@
 from fractions import Fraction
+
 def line(p,q):
     a,b,c,d = p[0],p[1],q[0],q[1]
     if a == c:
@@ -25,7 +26,6 @@ def Ln(n):
     return sorted(list(dict.fromkeys(lines)))
 
 def S(L):
-    print(perf_counter() - start)
     slopes = []
     i = 0
     while i < len(L):
@@ -42,5 +42,6 @@ def S(L):
 
 print(S(Ln(2500)))
 
-#answer = 9669182880384
-#זמן הרצה - דקה וחצי
+#Answer = 9669182880384
+
+#Time: 1:30

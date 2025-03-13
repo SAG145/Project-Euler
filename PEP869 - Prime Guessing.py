@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -58,5 +59,6 @@ def E(n):
 
 print(round(10**8*E(10**8)) / 10**8)
 
-#answer = 14.97696693
-#זמן הרצה - רבע שעה
+#Answer = 14.97696693
+
+#Time: 15:00

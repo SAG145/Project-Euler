@@ -1,4 +1,5 @@
 import math
+
 def bool_all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -56,5 +57,6 @@ def S(n):
 
 print(S(10**8))
 
-#answer = 100315739184392
-#זמן הרצה - 4 דקות
+#Answer = 100315739184392
+
+#Time: 4:00

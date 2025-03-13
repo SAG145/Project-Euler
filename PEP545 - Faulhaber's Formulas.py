@@ -53,7 +53,7 @@ while i < len(good_primes):
     if j == 0:
         break
 
-
 print(308*sorted(good_primes + good_numbers)[99998])
 
-#answer = 921107572
+#Answer = 921107572
+

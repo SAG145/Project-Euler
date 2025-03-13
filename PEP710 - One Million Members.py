@@ -17,9 +17,9 @@ while True:
         break
     n += 1
 
-#answer = 1275000
+#Answer = 1275000
 
-#כתבתי פונקציה שמחשבת את מספר התמורות של החלוקות של n, ואת מספר התמורות של החלוקות של n שמכילות 2
-#אז שמתי לב לחוקיות שמספר התמורות של החלוקות של n הוא 2 בחזקת n - 1
-#ומספר התמורות של החלוקות של n שמכילות 2 מקיים חוקיות כלשהי, שהצלחתי לזהות
-#בהתבסס על אלה כתבתי בסופו של דבר את הקוד
+#I wrote a function that calculates the number of permutations of the divisors of n, and the number of permutations of the divisors of n that contain 2.
+#Then I noticed the regularity that the number of permutations of the divisors of n is 2 to the power of n - 1.
+#And the number of permutations of the divisors of n that contain 2 obeys some regularity, which I was able to identify.
+#Based on these I eventually wrote the code.

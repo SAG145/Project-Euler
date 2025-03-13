@@ -1,4 +1,5 @@
 import math
+
 def prime_factors_with_repetitions(n,primes_list):
     if n % 2 == 0:
         primes_list.append(2)
@@ -22,16 +23,15 @@ def divi(n):
             d *= p
     return d
 
-
 def p(s, n):
     if s == 1:
         return (n - 1) // 2
     return (n - 1) // divi(s) - (n - 1) // divi(s + 1)
-
 
 x = 0
 for i in range(1,32):
     x += p(i, 4**i)
 print(x)
 
-# answer = 1617243
+# Answer = 1617243
+

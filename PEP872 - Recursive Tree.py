@@ -1,4 +1,5 @@
 import math
+
 def father1(n):
     for i in range(100):
         if 2**i + 1 > n:
@@ -20,4 +21,4 @@ def path(n,k):
 
 print(sum(path(10**17,9**17)))
 
-#answer = 2903144925319290239
+#Answer = 2903144925319290239

@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n % 2 == 0 and n != 2:
         return False
@@ -24,13 +25,13 @@ def long_division_9(prime):
 #     if is_prime(k):
 #         lst.append(k)
 #         print(k)
-#         print(99999999999999999999999 / k) #השתמשתי בלולאה הזאת בשביל לבדוק איזה מספרים ראשוניים מקיימים את התנאיםת כלומר ...999999 חלקיהם בתחיל ב 137
-# הם גדולים מ 10 בחזקת 8, ובנוסף חמשת הספרות האחרונות שלהם כפול 56789 מודולו 100000 יוצא 99999, מה שהוביל לזה שהם נגמרים ב 09891
-
+#         print(99999999999999999999999 / k) #I used this loop to check which prime numbers p meet the conditions, i.e. 999999... divide by p starting with 137.
+#They are greater than 10 to the 8th power, and plus their last five digits multiplied by 56789 modulo 100000 gives 99999, which led to them ending in 09891.
 # print(lst[2:])
 
 # print(long_division_9(725509891))
-# print(long_division_9(726509891)) #לאחר הרצת הלולאה יצאו שלושת המספרים האלה, לכל אחד מהם בדקתי בנפרד האם הוא זה שמוביל לפתרון ובסוף צדקתי
+# print(long_division_9(726509891)) #After running the loop, these three numbers came out. I checked each one separately to see if it led to the solution, and in the end I was right.
+
 print(long_division_9(729809891))
 
-#answer = 3284144505
+#Answer = 3284144505

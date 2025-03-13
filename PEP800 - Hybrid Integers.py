@@ -1,6 +1,7 @@
 import math
 
 log = 800800*math.log(800800)
+
 def less(p,q):
     return p*math.log(q) + q*math.log(p) <= log
 
@@ -26,6 +27,7 @@ def solution(p):
             if d == 9:
                 num += 10**power*9
     return num
+
 def index_less(p,primes):
     a = solution(p)
     i = math.floor(a/math.log(a))
@@ -46,5 +48,6 @@ for i in range(10**6):
         break
     hybrid += index - i
 
-#answer = 1412403576
-#זמן הרצה - שתי דקות
+#Answer = 1412403576
+
+#Time: 2:00

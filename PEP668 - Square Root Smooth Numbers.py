@@ -68,5 +68,6 @@ for i in range(1,len(primes) - 1):
 
 print(srs)
 
-#answer = 2811077773
-#1 hour and 45 minutes
+#Answer = 2811077773
+
+#Time: 1:45:00

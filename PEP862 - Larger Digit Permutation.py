@@ -26,6 +26,8 @@ def S(k):
                                                 permutation = factorial(k) // factorial_list(digits) * (k - d0) // k
                                                 x += permutation * (permutation - 1) // 2
     return int(x)
+
 print(S(12))
 
-#answer = 6111397420935766740
+#Answer = 6111397420935766740
+

@@ -1,5 +1,6 @@
 import math
 import random
+
 def all_primes_below_n(n):
     primes_bool = [True]*n
     for k in range(2, math.isqrt(n) + 1):
@@ -83,5 +84,5 @@ for p in all_primes_below_n(10**8):
 
 print(sp)
 
-#answer = 74204709657207
-#7 minutes and 30 seconds
+#Answer = 74204709657207
+#Time: 7:30

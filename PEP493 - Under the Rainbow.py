@@ -35,4 +35,5 @@ for k in range(len(lst)):
     expect += lst[k] * (k + 2)
 print(float(str(expect / sum(lst))[:11]))
 
-#answer = 6.818741802
+#Answer = 6.818741802
+

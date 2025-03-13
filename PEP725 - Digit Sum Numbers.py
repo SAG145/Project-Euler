@@ -1,5 +1,6 @@
 from math import factorial
 import copy
+
 def partitions(n):
     if n == 1:
         return [[1]]
@@ -21,6 +22,7 @@ def remove_dup(list):
         else:
             i += 1
     return list
+
 def factorial_list(list1):
     mult = 1
     for n in list1:
@@ -57,4 +59,5 @@ for r in parti:
     sum_ds = (sum_ds + sum_of_DS_part(r)) % 10**16
 print(sum_ds)
 
-#answer = 4598797036650685
+#Answer = 4598797036650685
+

@@ -42,8 +42,6 @@ def deci_to_min_roman(num):
     else:
         rom += "CM"
 
-
-
     if s[1] <= "3":
         rom += "X"*int(s[1])
     elif s[1] == "4":
@@ -96,4 +94,4 @@ for i in range(20000):
 
 print(round(expected,8))
 
-#answer = 319.30207833
+#Answer = 319.30207833

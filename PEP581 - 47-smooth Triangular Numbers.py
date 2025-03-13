@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -29,17 +30,14 @@ def hamming(limit,primes):
             list.append(n*primes[0]**k)
     return list
 
-
 h = hamming(10**13 + 1,all_primes_below_n(48))
-print(perf_counter() - start)
 print(len(h))
 h.sort()
-print(perf_counter() - start)
 s = 0
 for i in range(len(h) - 1):
     if h[i] + 1 == h[i + 1]:
         s += h[i]
 print(s)
 
-#answer = 2227616372734
-#את החסם העליון (13**10) מצאתי בניסוי וטעייה
+#Answer = 2227616372734
+#I found the upper bound (10^13) through trial and error.

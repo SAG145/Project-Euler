@@ -27,4 +27,4 @@ for i in range(100):
     G += g(fib,fib_sums,23416728348467685,i)
 print(G)
 
-#answer = 842043391019219959
+#Answer = 842043391019219959

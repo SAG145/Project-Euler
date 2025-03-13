@@ -33,7 +33,6 @@ def S(n,primes):
         a = 1
     return sum2(n) - n - (n + 1) // 2 + 2 + 2*pi - a
 
-
 fib = [0,1,1]
 for _ in range(42):
     fib.append(fib[-1] + fib[-2])
@@ -45,5 +44,5 @@ for i in range(3,len(fib)):
 
 print(s)
 
-#answer = 199007746081234640
-#14 minutes
+#Answer = 199007746081234640
+#Time: 14:00

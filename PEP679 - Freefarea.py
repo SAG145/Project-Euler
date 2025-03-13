@@ -19,6 +19,7 @@ def dec_to_quat(n,l = 3):
     if l != -1:
         return "0"*(l - len(num)) + num
     return num
+
 def contained(s1,s2):
     for i in range(len(s2) - len(s1) + 1):
         if s2[i:i + len(s1)] == s1:
@@ -89,4 +90,4 @@ for p in poss:
     s += p[-1]
 print(s)
 
-#answer = 644997092988678
+#Answer = 644997092988678

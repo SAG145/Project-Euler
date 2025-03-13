@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n_bool(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -19,3 +20,5 @@ for a in range(2,10**6 + 1):
 creative = list(dict.fromkeys(creative))
 
 print(sum(creative) - 16)
+
+#Answer = 310884668312456458

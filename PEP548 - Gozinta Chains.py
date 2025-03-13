@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -81,7 +82,6 @@ def all_powers(powers,prime_powers,limit,current):
     for k in range(1,ilog(prime_powers[len(current)][1],limit / min_number_of_form(current,prime_powers)) + 1):
         all_powers(powers,prime_powers,limit,current + [k])
 
-
 primes = all_primes_below_n(100)
 primes_powers = []
 for p in range(16):
@@ -126,6 +126,4 @@ for i in range(len(sorted_powers)):
 
 print(s)
 
-#answer = 12144044603581281
-
-#זמן הרצה - לוקח זמן, לא ידוע בדיוק כמה
+#Answer = 12144044603581281
