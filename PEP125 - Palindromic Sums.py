@@ -19,6 +19,8 @@ def pali_sum(n):
             num += square_list[index]
             index += 1
     return sum(pali_list)
+
 print(pali_sum(10**8))
 
-#answer = 2906969179
+#Answer = 2906969179
+

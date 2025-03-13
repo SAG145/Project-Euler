@@ -83,4 +83,5 @@ for k in range(11,41):
     pan_step_nums += a
 print(pan_step_nums)
 
-#answer = 126461847755
+#Answer = 126461847755
+

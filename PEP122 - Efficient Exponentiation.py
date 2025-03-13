@@ -34,4 +34,5 @@ for k in range(3,201):
     powers.append(p)
 print(sum)
 
-#answer = 1582
+#Answer = 1582
+

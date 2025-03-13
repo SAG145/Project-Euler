@@ -15,7 +15,7 @@ def prime_factors_with_repetitions(n,primes_list,m = 2):
                 return prime_factors_with_repetitions(n // k, primes_list,k)
     primes_list.append(n)
     return primes_list
-    
+
 def R(k):
     return int("1"*k)
 
@@ -26,28 +26,28 @@ def divisors(n):
                 divi.append(k)
                 divi.append(n // k)
     return sorted(divi)
-    
+
 def gcd(a,b):
     while b != 0:
         r = a % b
         a = b
         b = r
     return a
-    
+
 def lcm(a,b):
     return a*b // gcd(a,b)
-    
+
 def euler_function(n,primes):
     for p in primes:
         n *= (1 - 1 / p)
     return round(n)
-    
+
 def max_power(n,p):
     a = p
     while n % a == 0:
         a *= p
     return a // p
-    
+
 def A(n):
     pf = prime_factors_with_repetitions(n,[])
     pf = list(dict.fromkeys(pf))
@@ -60,7 +60,7 @@ def A(n):
         if R(d) % n == 0:
             return d
     return mini
-    
+
 n = 10**6 + 1
 while True:
     if n % 5 != 0:
@@ -69,5 +69,5 @@ while True:
             print(n)
             break
     n += 2
-    
-#answer = 1000023
+
+#Answer = 1000023

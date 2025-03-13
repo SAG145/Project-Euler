@@ -85,4 +85,5 @@ for t in triangles_list:
         x += 1
 print(x)
 
-#answer = 228
+#Answer = 228
+

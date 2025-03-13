@@ -39,4 +39,5 @@ for p in pita:
     valid_tilling += maxi // sum(p)
 print(valid_tilling)
 
-#answer = 10057761
+#Answer = 10057761
+

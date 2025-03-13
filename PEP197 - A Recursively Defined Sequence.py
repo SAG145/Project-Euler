@@ -19,4 +19,5 @@ for k in range(100002):
     values_list.append(x)
 print(u(10**5,values_list,index_list)+u(10**5+1,values_list,index_list))
 
-#answer = 1.710637717
+#Answer = 1.710637717
+

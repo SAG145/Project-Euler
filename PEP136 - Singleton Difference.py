@@ -19,5 +19,6 @@ while change != 100:
     b += 1
 print(single)
 
-#answer = 2544559
-#14 minutes
+#Answer = 2544559
+#Time: 14:00
+

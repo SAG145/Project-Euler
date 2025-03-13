@@ -20,6 +20,7 @@ for n in range(10**1,10**8):
         reversibles += 1
 print(reversibles)
 
-#answer = 608720
-#80 seconds
+#Answer = 608720
+
+#Time: 1:30
 #It is enough to check up to 10^8 because there are no reversible numbers with 9 digits.

@@ -21,5 +21,6 @@ for t in lst:
 
 print(s - 9*100)
 
-#answer = 51161058134250
+#Answer = 51161058134250
 #This code was written after solving the problem because it was unclear why the original code worked.
+

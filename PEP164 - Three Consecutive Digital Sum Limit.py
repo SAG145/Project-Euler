@@ -34,5 +34,6 @@ for i in range(18):
     poss = next_digit(poss,opti_next_digits)
 print(sum(poss))
 
-#answer = 378158756814587
+#Answer = 378158756814587
 #This code was written after the problem was solved because the original code was lost.
+

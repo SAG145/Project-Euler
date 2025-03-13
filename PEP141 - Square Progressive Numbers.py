@@ -53,4 +53,5 @@ for i in range(len(progressive_squares)):
 
 print(sum_prog_squ)
 
-#answer = 878454337159
+#Answer = 878454337159
+

@@ -125,4 +125,5 @@ def least_n(min_solutions):
 
 print(least_n(1000))
 
-#answer = 180180
+#Answer = 180180
+

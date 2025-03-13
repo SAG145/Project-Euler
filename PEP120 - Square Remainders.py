@@ -13,4 +13,5 @@ for a in range(3,1001):
     sum1 += max_r(a)
 print(sum1)
 
-#answer = 333082500
+#Answer = 333082500
+

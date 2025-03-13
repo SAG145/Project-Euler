@@ -35,4 +35,5 @@ while True:
         num_of_prime_solutions += 1
     n += 1
 
-#answer = 173
+#Answer = 173
+

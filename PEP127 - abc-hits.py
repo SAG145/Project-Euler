@@ -44,5 +44,6 @@ def sigma_c(maxi):
 
 print(sigma_c(1000))
 
-#answer = 18407904
-#15 minutes
+#Answer = 18407904
+#Time: 15:00
+

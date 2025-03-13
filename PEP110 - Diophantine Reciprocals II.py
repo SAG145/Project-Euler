@@ -125,4 +125,5 @@ def least_n(min_solutions):
 
 print(least_n(4000000))
 
-#answer = 9350130049860600
+#Answer = 9350130049860600
+

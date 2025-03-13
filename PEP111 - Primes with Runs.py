@@ -28,6 +28,7 @@ def is_prime(n):
     return True
 
 power_lst = [1,10,100,1000,10000,100000,1000000,10000000,100000000,1000000000,10000000000]
+
 def tuple_to_number(t):
     num = 0
     l = len(t)
@@ -84,6 +85,6 @@ for d in range(10):
     x += S(10,d)
 print(x)
 
-#answer = 612407567715
-#7 minutes and 30 seconds.
+#Answer = 612407567715
+#Time: 7:30
 #The code was changed a bit after solving the problem because the original solution used a library.

@@ -25,4 +25,5 @@ for d0 in range(4):
                                             permutations += factorial(18) // factorial_list(digits) * (18 - d0) // 18
 print(permutations)
 
-#answer = 227485267000992000
+#Answer = 227485267000992000
+

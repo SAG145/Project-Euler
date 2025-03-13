@@ -12,4 +12,5 @@ def tetration_mod(a,b,mod):
 
 print(tetration_mod(1777,1855,10**8))
 
-#answer = 95962097
+#Answer = 95962097
+

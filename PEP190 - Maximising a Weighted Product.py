@@ -17,4 +17,5 @@ for m in range(2,16):
     s += math.floor(m**tri_num(m)*fracs[m - 2])
 print(s)
 
-#answer = 371048281
+#Answer = 371048281
+

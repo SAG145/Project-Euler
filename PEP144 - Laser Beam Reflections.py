@@ -9,7 +9,7 @@ def arctan(x):
 
 def tan(x):
     return math.tan(x*math.pi/180)
-    
+
 def line_equation_between_two_dots(dot1,dot2):
     a, b, c, d = dot1[0], dot1[1], dot2[0], dot2[1]
     m = (b-d)/(a-c)
@@ -61,4 +61,5 @@ while True:
     dot2 = next_dot_from_two_dots(d1,d2)
     times_beam_hit += 1
 
-#answer = 354
+#Answer = 354
+

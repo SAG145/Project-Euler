@@ -23,8 +23,8 @@ def prime_factors_with_repetitions(n,primes_list):
                     return prime_factors_with_repetitions(n/k,primes_list)
 
 def D(n):
-    n_max = round(n / math.e)                                     #לזה הגעתי על ידי פתרון בעיית קיצון של הפונקציה
-    n_primes = prime_factors_with_repetitions(n,[])               # f(x) = (a/x)**x
+    n_max = round(n / math.e) #I arrived at this by solving an extremum problem of the function f(x) = (a/x)^x.
+    n_primes = prime_factors_with_repetitions(n,[])
     max_primes = prime_factors_with_repetitions(n_max,[])
     for p1 in n_primes:
         if p1 in max_primes:
@@ -40,4 +40,4 @@ for k in range(5,10001):
     x += D(k)
 print(x)
 
-#answer = 48861552
+#Answer = 48861552

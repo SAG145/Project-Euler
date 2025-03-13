@@ -103,5 +103,6 @@ for n in range(10**5 + 1):
         s += best_appro(n,10**12)
 print(s)
 
-#answer = 57060635927998347
-#5 minutes and 30 seconds
+#Answer = 57060635927998347
+#Time: 5:30
+

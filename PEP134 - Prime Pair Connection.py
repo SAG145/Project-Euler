@@ -11,7 +11,7 @@ def all_primes_below_n(n):
         if primes_bool[k]:
             primes_list.append(k)
     return primes_list
-    
+
 def modular_inverse(mod,b):
     n1 = n2 = 0
     n1_lst = [1,0]
@@ -28,7 +28,7 @@ def modular_inverse(mod,b):
     if n2 > 0:
         return n2
     return n2 + x
-    
+
 def least_such_number(a,b):
     mod = 10**len(str(a))
     n = (a*modular_inverse(mod,b))
@@ -41,4 +41,5 @@ for i in range(2,len(primes) - 1):
     sum += least_such_number(primes[i],primes[i + 1])
 print(sum)
 
-#answer = 18613426663617118
+#Answer = 18613426663617118
+

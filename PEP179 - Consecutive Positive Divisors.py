@@ -7,7 +7,7 @@ def divisors(n):
         for l in range(1,int(math.sqrt(n))):
             if n%l==0:
                 num_of_divisors += 2
-                
+
     else:
         for l in range(1,int(math.sqrt(n)) + 1):
             if n%l==0:
@@ -24,5 +24,6 @@ for i in range(len(divi_list) - 1):
         x += 1
 print(x)
 
-#answer = 986262
-# 30 minutes
+#Answer = 986262
+#Time: 30:00
+

@@ -19,4 +19,4 @@ def num_of_not_divisible(rows):
 
 print(num_of_not_divisible(10**9))
 
-#answer = 2129970655314432
+#Answer = 2129970655314432

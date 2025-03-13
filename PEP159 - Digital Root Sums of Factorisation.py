@@ -27,4 +27,5 @@ for k in range(10,10**6):
 
 print(sum(mdrs_list))
 
-#answer = 14489159
+#Answer = 14489159
+

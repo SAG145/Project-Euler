@@ -14,6 +14,8 @@ def prize_strings(days):
     for index_l in range(1, days // 2):
         sum += 2 * fib3(index_l, values, index) * fib3(days - index_l - 1, values, index)
     return sum
+
 print(prize_strings(30))
 
-#answer = 1918080160
+#Answer = 1918080160
+

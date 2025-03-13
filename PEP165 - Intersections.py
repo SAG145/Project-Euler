@@ -33,7 +33,7 @@ def larger(n,f):
 
 def smaller(n,f):
     return n*f[1] < f[0]
-    
+
 def true_inter(i,j):
     k = lines[i]
     l = lines[j]
@@ -77,4 +77,5 @@ for s in range(1,5000):
 true_intersection_points = list(dict.fromkeys(true_intersection_points))
 print(len(true_intersection_points))
 
-#answer = 2868868
+#Answer = 2868868
+

@@ -54,6 +54,7 @@ golden_nuggets.sort()
 golden_nuggets.pop(0)
 print(sum(golden_nuggets[:30]))
 
-#answer = 5673835352990
+#Answer = 5673835352990
 #From the development of AG(x) we find that AG(x) = AF(x) + 3AH(x), in a short time I found a formula for AH(x) and AF(x) which I already had from PEP137.
 #In the end it turned out that 5x^2 + 14x + 1 must be a perfect square and I solved this similarly to PEP137.
+

@@ -11,7 +11,7 @@ def gcd(x,y):
         x = b
 
     return y
-    
+
 def sbe_min(a,b):
     g = gcd(a,b)
     a //= g
@@ -25,8 +25,9 @@ def sbe_min(a,b):
         return sbe_min(a % b,b) + "," + str(q)
     q = b // a
     return sbe_min(a,b % a) + "," + str(q)
-        
-   
+
+
 print(sbe_min(123456789,987654321))
 
-#answer = 1,13717420,8
+#Answer = 1,13717420,8
+

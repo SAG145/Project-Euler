@@ -45,5 +45,6 @@ def such_integers(maxi):
 
 print(such_integers(150*10**6))
 
-#answer = 676333270
-#5 minutes
+#Answer = 676333270
+#Time: 5:00
+

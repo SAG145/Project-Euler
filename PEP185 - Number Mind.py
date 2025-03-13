@@ -119,6 +119,6 @@ for i in range(len(all_scores) - 1):
     if all_scores[i][0] == all_scores[i + 1][0]:
         print(all_scores[i][2][8:],all_scores[i + 1][2][:8])
 
-#answer = 4640261571849533
-#זמן הרצה - 26 דקות
-#26 minutes
+#Answer = 4640261571849533
+
+#Time: 26:00

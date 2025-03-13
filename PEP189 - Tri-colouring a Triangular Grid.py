@@ -85,4 +85,5 @@ for k in range(1,15):
         confi = copy.copy(new_confi)
 print(sum(confi))
 
-#answer = 10834893628237824
+#Answer = 10834893628237824
+

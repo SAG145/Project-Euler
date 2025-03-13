@@ -11,7 +11,7 @@ def all_primes_below_n(n):
         if primes_bool[k]:
             primes_list.append(k)
     return primes_list
-    
+
 def prime_factors_with_repetitions(n,primes_list,m = 2):
     if n % 2 == 0:
         primes_list.append(2)
@@ -27,7 +27,7 @@ def prime_factors_with_repetitions(n,primes_list,m = 2):
                 return prime_factors_with_repetitions(n // k, primes_list,k)
     primes_list.append(n)
     return primes_list
-    
+
 def R(k):
     return int("1"*k)
 
@@ -38,28 +38,28 @@ def divisors(n):
                 divi.append(k)
                 divi.append(n // k)
     return sorted(divi)
-    
+
 def gcd(a,b):
     while b != 0:
         r = a % b
         a = b
         b = r
     return a
-    
+
 def lcm(a,b):
     return a*b // gcd(a,b)
-    
+
 def euler_function(n,primes):
     for p in primes:
         n *= (1 - 1 / p)
     return round(n)
-    
+
 def max_power(n,p):
     a = p
     while n % a == 0:
         a *= p
     return a // p
-    
+
 def A(n):
     pf = prime_factors_with_repetitions(n,[])
     pf = list(dict.fromkeys(pf))
@@ -72,13 +72,13 @@ def A(n):
         if R(d) % n == 0:
             return d
     return mini
-    
+
 def only_2_or_5(factors):
     for f in factors:
         if f != 2 and f != 5:
             return False
     return True
-    
+
 primes = all_primes_below_n(10**6)
 primes.remove(2)
 primes.remove(5)
@@ -94,5 +94,6 @@ for p in primes:
         print(sum(pfexp9))
         break
 
-#answer = 843296
-#7 minutes
+#Answer = 843296
+#Time: 7:00
+

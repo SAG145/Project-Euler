@@ -1,7 +1,5 @@
 import copy
 
-from time import perf_counter
-start = perf_counter()
 def sum_indexes(lst,start,end):
     s = 0
     for i in range(start,end + 1):
@@ -155,5 +153,5 @@ for d in diagonals:
         max_sum = ns
 print(max_sum)
 
-#answer = 52852124
-#6 minutes
+#Answer = 52852124
+#Time: 6:00

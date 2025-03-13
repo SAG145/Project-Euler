@@ -22,5 +22,6 @@ for a in range(10):
 
 print(ways)
 
-#answer = 7130034
-#8 minutes
+#Answer = 7130034
+#Time: 8:00
+

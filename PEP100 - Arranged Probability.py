@@ -14,4 +14,5 @@ while solution(t[0])[1] < 10**12 + 1:
     t = next(t)
 print(solution(t[0])[0])
 
-#answer = 756872327473
+#Answer = 756872327473
+

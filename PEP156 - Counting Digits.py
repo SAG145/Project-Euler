@@ -42,5 +42,6 @@ for d in range(2,10):
 
 print(x)
 
-#answer = 21295121502550
-#7 minutes and 30 seconds
+#Answer = 21295121502550
+#Time: 7:30
+

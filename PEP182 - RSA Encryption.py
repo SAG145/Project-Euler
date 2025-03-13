@@ -17,4 +17,4 @@ for e in range(0,phi):
 
 print(mini_sum)
 
-#answer = 399788195976
+#Answer = 399788195976

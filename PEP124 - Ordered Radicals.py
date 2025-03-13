@@ -26,7 +26,6 @@ def prime_factors_without_repetitions(n,primes_list):
                     if k not in primes_list:
                         primes_list.append(k)
                     return prime_factors_without_repetitions(n / k, primes_list)
-
 def multiple_list(lst):
     mult = 1
     for k in lst:
@@ -42,6 +41,7 @@ def E(k):
         rad_list.append((rad(n),n))
     rad_list.sort()
     return rad_list[k-1][1]
+
 print(E(10000))
 
-#answer = 21417
+#Answer = 21417

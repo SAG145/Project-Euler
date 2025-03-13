@@ -32,4 +32,5 @@ def win(discs):
 
 print(int(1/win(15)))
 
-#answer = 2269
+#Answer = 2269
+

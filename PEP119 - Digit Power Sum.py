@@ -16,4 +16,5 @@ for base in range(2,100):
 a_list = sorted(a_list)
 print(a_list[29])
 
-#answer = 248155780267521
+#Answer = 248155780267521
+

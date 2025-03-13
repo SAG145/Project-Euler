@@ -31,7 +31,6 @@ def next_sol(sol1,sol2,n):
     a,b,c,d = sol1[0],sol1[1],sol2[0],sol2[1]
     return (a*c + b*d*n,a*d + b*c)
 
-
 base_sols = [(9,2)]
 real_sols = [(22,5),(152,34),(1,2),(1042,233)]
 golden_nuggets = []
@@ -48,7 +47,8 @@ for rs in real_sols:
 golden_nuggets.sort()
 print(golden_nuggets[14])
 
-#answer = 1120149658760
+#Answer = 1120149658760
 #At first I noticed that for p/q it follows that AF(p / q) is also rational and of the form pq/n when n is natural.
 # The function func calculates n and its other versions calculate it more simply.
 #In the end, it turned out that 5x^2 + 2x + 1 should be a quadratic, and I solved it with Pell's equation.
+

@@ -12,4 +12,5 @@ for n in lst1:
         num_of_10 += 1
 print(num_of_10)
 
-#answer = 4989
+#Answer = 4989
+

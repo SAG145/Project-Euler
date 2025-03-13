@@ -45,7 +45,7 @@ def lexi_1(lst):
         return True
     return False
 
-def lexi_1_perm(n): #נכתב על סמך בחינה של הערכים שנוצרים מ 2 עד 10 ביצירה יסודית
+def lexi_1_perm(n): #Written based on an examination of the values created from 2 to 10 in elementary work.
     if n == 2:
         return 1
     else:
@@ -58,4 +58,5 @@ for k in range(2,27):
         maxi = k
 print(max)
 
-#answer = 409511334375
+#Answer = 409511334375
+

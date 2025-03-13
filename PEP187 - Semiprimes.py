@@ -20,7 +20,6 @@ def num_of_primes_below_n(primes,n):
 
 def semi_primes_below(n):
     primes = all_primes_below_n(n // 2)
-    print(perf_counter() - start)
     x = len(primes)
     b = 0
     primes.pop(0)
@@ -34,4 +33,4 @@ def semi_primes_below(n):
 
 print(semi_primes_below(10**8))
 
-#answer = 17427258
+#Answer = 17427258

@@ -30,4 +30,4 @@ for d in range(1,10):
 
 print(s % 10**5)
 
-#answer = 59206
+#Answer = 59206

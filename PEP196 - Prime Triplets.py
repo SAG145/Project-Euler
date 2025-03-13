@@ -65,5 +65,5 @@ def S(n):
 
 print(S(5678027) + S(7208785))
 
-#answer = 322303240771079935
-#3minutes and 30 seconds
+#Answer = 322303240771079935
+#Time: 3:30

@@ -17,4 +17,4 @@ for k in range(index + 1,51):
     index += 1
 print(RGB(50,values,index))
 
-#ansswer = 100808458960497
+#Answer = 100808458960497

@@ -1,4 +1,5 @@
 import math
+
 file = open("0099_base_exp.txt","r")
 s = str(file.read())
 s += "\n" + "s"
@@ -25,4 +26,5 @@ for i in range(1000):
         max_index = i
 print(max_index+1)
 
-#answer = 709
+#Answer = 709
+

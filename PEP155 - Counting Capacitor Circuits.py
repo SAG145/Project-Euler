@@ -60,5 +60,5 @@ for c in capacitors:
 
 print(len(list(dict.fromkeys(all_capa))))
 
-#answer = 3857447
-#11minutes and 30 seconcds
+#Answer = 3857447
+#Time: 11:30

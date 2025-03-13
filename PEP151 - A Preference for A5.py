@@ -6,6 +6,7 @@ def num_of_times(lst,elem):
         if k == elem:
             n += 1
     return n
+
 single_lst = [0,0,0,0,0,0]
 
 def new_envelope(envelope,single,p,q):
@@ -37,4 +38,5 @@ for s in range(len(single_lst)):
     single_average += s*single_lst[s]
 print(round(10**6*single_average / sum(single_lst)) / 10**6)
 
-#answer = 0.464399
+#Answer = 0.464399
+

@@ -17,4 +17,5 @@ for k in range(4,51):
     index += 1
 print(CBC(50,values,index))
 
-#answer = 16475640049
+#Answer = 16475640049
+
