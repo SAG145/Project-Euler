@@ -1,4 +1,5 @@
 import math
+
 perfect = 1
 partitions = 1
 x = 2
@@ -12,4 +13,5 @@ while perfect / partitions >= 1/12345:
     x += 1
 print(k)
 
-#answer = 44043947822
+#Answer = 44043947822
+

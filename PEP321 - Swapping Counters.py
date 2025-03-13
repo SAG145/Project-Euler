@@ -37,5 +37,5 @@ for s in final_sols:
 
 print(sum(sorted(list(dict.fromkeys(tri)))[:40]))
 
-#answer = 2470433131948040
-#2 minutes
+#Answer = 2470433131948040
+#Time: 2:00

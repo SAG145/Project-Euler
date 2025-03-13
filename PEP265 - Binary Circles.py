@@ -17,6 +17,8 @@ def S(n):
         if circular(s+bin(k)[2:],n):
             sum += k
     return sum
+
 print(S(5))
 
-#answer = 209110240768
+#Answer = 209110240768
+

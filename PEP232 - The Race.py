@@ -4,7 +4,7 @@ def prob(probs,a,b,t):
     if b > 99:
         return 1
     return probs[a][b][t]
-    
+
 def solve(a,b,c,d):
     y = (c + a*d) / (1 - d*b)
     return (a + b*y,y)
@@ -28,7 +28,8 @@ for p1 in range(99,-1,-1):
                 mp1 = s[1]
         probs[p1][p2][0] = mp1
         probs[p1][p2][1] = mp2
-        
+
 print(round(probs[0][0][0],8))
 
-#answer = 0.83648556
+#Answer = 0.83648556
+

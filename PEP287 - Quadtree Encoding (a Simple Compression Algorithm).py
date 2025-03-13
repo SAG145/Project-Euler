@@ -17,5 +17,6 @@ for i in range(60):
 N = 24
 print(min_seq_len(0,0,2**N - 1,N,powers))
 
-#answer = 313135496
-#זמן הרצה - חמש דקות
+#Answer = 313135496
+
+#Time: 5:00

@@ -1,4 +1,5 @@
 import math
+
 n = 64*10**6
 lst = [1]*n
 for k in range(2,n // 2 + 1):
@@ -19,5 +20,6 @@ for i in range(1,len(lst)):
 
 print(s)
 
-#answer = 1922364685
-#זמן הרצה - 28 דקןת
+#Answer = 1922364685
+
+#Time: 28:00

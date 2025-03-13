@@ -10,7 +10,7 @@ def is_squarefree(n):
         for k in range(3,rt + 10, 2):
             if n % (k ** 2) == 0:
                 return False
-                
+
     else:
         for k in range(2, rt + 10):
             if n % (k ** 2) == 0:
@@ -30,4 +30,5 @@ for n in range(2,51):
 pascal = list(dict.fromkeys(pascal))
 print(sum(pascal))
 
-#answer = 34029210557338
+#Answer = 34029210557338
+

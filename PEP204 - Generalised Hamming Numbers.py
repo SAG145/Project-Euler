@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -31,4 +32,5 @@ def hamming(limit,primes):
 
 print(len(hamming(10**9 + 1,all_primes_below_n(100))))
 
-#answer = 2944730
+#Answer = 2944730
+

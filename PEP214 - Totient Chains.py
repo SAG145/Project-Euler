@@ -1,6 +1,7 @@
 import math
-def prime_factors_without_repetitions(n,primes_list): #בעת הקריאה לפונקציה יש להוסיף [] במקום של ה primes_list
-    if n % 2 == 0:                                    #אחרת בהפעלה חוזרת הפונקציה לא תפעל
+
+def prime_factors_without_repetitions(n,primes_list):
+    if n % 2 == 0:
         if 2 not in primes_list:
             primes_list.append(2)
         return prime_factors_without_repetitions(n // 2, primes_list)
@@ -49,4 +50,5 @@ for p in primes:
         x += p
 print(x)
 
-#answer = 1677366278943
+#Answer = 1677366278943
+

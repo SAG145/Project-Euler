@@ -11,7 +11,6 @@ def next_square(s,sums,sum_limit,len_limit,k):
             new[i + s][j + 1] += sums[i][j]
     return new
 
-
 def U(A,k):
     sums = [[1] + [0]*k] + [0] * (sum(A))
     for i in range(1,len(sums)):
@@ -29,11 +28,11 @@ def U(A,k):
             uniques.append(sumi)
     return uniques
 
-
 S = []
 for k in range(1,101):
     S.append(k**2)
 print(sum(U(S,50)))
 
-#answer = 115039000
-# 3 minutes
+#Answer = 115039000
+#Time: 3:00
+

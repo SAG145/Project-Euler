@@ -1,5 +1,6 @@
 import math
 from fractions import Fraction
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -39,5 +40,6 @@ for start_poss in range(1,501):
 
 print(prob[0])
 
-#answer = 199740353/29386561536000
-#זמן הרצה - 2 דקות
+#Answer = 199740353/29386561536000
+
+#Time: 2:00

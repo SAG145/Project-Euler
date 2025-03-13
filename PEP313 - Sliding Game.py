@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -17,5 +18,6 @@ for p in all_primes_below_n(10**6)[2:]:
     grids += s - 3
 print(grids // 3)
 
-#answer = 2057774861813004
-#לא ברור למה הקוד עובד
+#Answer = 2057774861813004
+
+#It is not clear why the code's mathematics is correct.

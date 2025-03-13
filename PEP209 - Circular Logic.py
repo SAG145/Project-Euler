@@ -41,4 +41,5 @@ for g in groups:
         s *= (f[l] + f[l - 2])
 print(s)
 
-#answer = 15964587728784
+#Answer = 15964587728784
+

@@ -10,5 +10,5 @@ for m1 in range(1,168):
 
 print(not_super)
 
-#זה מראה שבכל מקרה השטח יתחלק ב 6 וב 28 ולכן אין אף משולש כזה
-#answer = 0
+#Answer = 0
+#This shows that in any case the area will be divided by 6 and 28 and therefore there is no such triangle.

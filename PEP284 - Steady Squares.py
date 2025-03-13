@@ -1,6 +1,8 @@
 import math
 import sys
+
 sys.setrecursionlimit(10**4)
+
 def extended_Euclid(n,mod):
     if n < mod:
         return extended_Euclid(mod,n)[::-1]
@@ -60,5 +62,6 @@ for d in suma:
 
 print(s)
 
-#answer = 5a411d7b
-#זזמן הרצה - 67  דקות
+#Answer = 5a411d7b
+
+#Time: 1:07:00

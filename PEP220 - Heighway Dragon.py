@@ -53,4 +53,4 @@ for d in range(1,52):
 p = add((0,1),position(pos_list,"a",50,10**12 - 1,0))
 print(str(p[0]) + "," + str(p[1]))
 
-#answer = 139776,963904
+#Answer = 139776,963904

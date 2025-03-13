@@ -46,5 +46,5 @@ for t in range(100,len(sieve)):
 
 print(pan_primes)
 
-#answer = 4037526
-#17 minutes
+#Answer = 4037526
+#Time: 17:00

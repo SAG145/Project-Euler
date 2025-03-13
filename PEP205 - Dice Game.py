@@ -27,4 +27,5 @@ for d1 in range(9,37):
     final_probability += s*pyramidal_probability[d1]
 print(round(final_probability*10**7)/10**7)
 
-#answer = 0.5731441
+#Answer = 0.5731441
+

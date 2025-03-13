@@ -43,4 +43,4 @@ for i in range(2, 100):
 
 print(sigma_z(bins,fib,fib_sums,10**17 - 1))
 
-#answer = 2252639041804718029
+#Answer = 2252639041804718029

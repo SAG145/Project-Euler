@@ -1,8 +1,6 @@
 import math
 import random
-from time import perf_counter
-start = perf_counter()
-import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -60,14 +58,10 @@ def invalid(n,invalids):
     return False
 
 def t_primes(maxi):
-    # primes = all_primes_below_n(round(maxi*math.sqrt(2)) + 5)
     primes = all_primes_below_n(100)
-    print(perf_counter() - start)
     invalids = invalid_mod(primes)
     x = 1
     for n in range(3,maxi):
-        if n % 100000 == 0:
-            print(n,perf_counter() - start)
         if not invalid(n,invalids):
             if prob_prime1(2*n**2 - 1):
                 x += 1
@@ -75,7 +69,8 @@ def t_primes(maxi):
 
 print(t_primes(50*10**6))
 
-print(perf_counter() - start)
+#Answer = 5437849
 
-#האלגוריתם הוא הסתברותי, וכשהרצתי אותו (זמן הרצה - רבע שעה) יצא 5437853, אז ניחשתי מספרים קרובים ויותר נמוכים עד שגיליתי את התשובה
-#answer = 5437849
+#Time: 15:00
+
+#The algorithm is probabilistic, and when I ran it it came out 5437853, so I guessed closer and lower numbers until I found the answer.

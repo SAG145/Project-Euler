@@ -24,4 +24,5 @@ for n in range(18):
     s += 10**n*D(A,B,t,i)
 print(s)
 
-#answer = 850481152593119296
+#Answer = 850481152593119296
+

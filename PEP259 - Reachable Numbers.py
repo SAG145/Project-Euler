@@ -1,4 +1,5 @@
 import copy
+
 def arith_nums(a,b):
     nums_list = []
     nums_list.append(a + b)
@@ -66,7 +67,7 @@ def natural_reachable(lst):
     reachable_round = list(dict.fromkeys(reachable_round))
     return sum(reachable_round)
 
-
 print(natural_reachable([1,2,3,4,5,6,7,8,9]))
 
-#answer = 20101196798
+#Answer = 20101196798
+

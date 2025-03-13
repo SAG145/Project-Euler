@@ -1,4 +1,5 @@
 import math
+
 factorial = []
 for n in range(1001):
     factorial.append(math.factorial(n))
@@ -18,6 +19,7 @@ def chance_to_billion(i):
         for k in range(i, 1001):
             s += choose(1000, k)
         return s / 2 ** 1000
+
 def exist_f(min_wins):
     for x in range(1,100):
         f = x / 100
@@ -30,4 +32,5 @@ for i in range(1,1001):
         print(round(10**12*chance_to_billion(i)) / 10**12)
         break
 
-#answer = 0.999992836187
+#Answer = 0.999992836187
+

@@ -1,4 +1,5 @@
 from math import factorial
+
 def factorial_list(lst):
     m = 1
     for k in lst:
@@ -74,4 +75,5 @@ for part in real_summ:
     ways += num_of_ways_partition(part,20)
 print(ways)
 
-#answer = 7448717393364181966
+#Answer = 7448717393364181966
+

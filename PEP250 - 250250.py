@@ -1,4 +1,5 @@
 import copy
+
 def next_num(n,mods_sums,mod):
     new = copy.copy(mods_sums)
     for m in range(250):
@@ -17,4 +18,5 @@ for k in mods:
 
 print(mods_sums[0] - 1)
 
-#answer = 1425480602091519
+#Answer = 1425480602091519
+

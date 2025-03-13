@@ -1,4 +1,5 @@
 sequence = "UDDDUdddDDUDDddDdDddDDUDDdUUDd"
+
 def func(num,mod,sequence,index):
     for i in range(index - 1):
         if sequence[i] == "D":
@@ -30,4 +31,5 @@ while x < 10**15:
     x += 3**30
 print(x)
 
-#answer = 1125977393124310
+#Answer = 1125977393124310
+

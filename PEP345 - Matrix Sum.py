@@ -1,5 +1,6 @@
 import copy
 import random
+
 def min_index(lst):
     i = 0
     m = lst[0]
@@ -189,4 +190,4 @@ for s in sorted(solution(new_rows,new_columns)):
 
 print(matrix_sum)
 
-#answer = 13938
+#Answer = 13938

@@ -1,4 +1,5 @@
 import math
+
 def all_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -48,5 +49,6 @@ for p in range(len(partitions)):
         sum1 += p
 print(sum1)
 
-#asnwer = 3053105
-#זמן הרצה - שלוש וחצי דקות
+#Answer = 3053105
+
+#Time: 3:30

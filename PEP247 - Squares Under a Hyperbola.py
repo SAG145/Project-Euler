@@ -1,4 +1,5 @@
 import math
+
 def X(corner):
     a = corner[0]
     b = corner[1]
@@ -46,4 +47,5 @@ while True:
             break
     n += 1
 
-#answer = 782252
+#Answer = 782252
+

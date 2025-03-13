@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n % 2 == 0:
         return False
@@ -36,14 +37,13 @@ def euler_function(n):
 def r_func(n):
     return euler_function(n)/(n-1)
 
-a = 15499/94744
-print(a)
-print(r_func(2*3*5*7*11*13*17*19*23)) #גדול מ a
-print(r_func(2*3*5*7*11*13*17*19*23*29)) #קטן מ a
-#                       כיוון שעבור כל n שהוא מכפלה של ראשוניים עוקבים (החל מ-2) שכל אחד מהם מופיע בדיוק פעם אחת בפירוק שלו
-# הערך של פונקציית אוילר של n הוא מינימום עד n (ולכן גם r_func(n)) הפתרון לשאלה יהיה בין שני המספרים האלה,
-#                                                                                    לאחר קצת ניסוי וטעיה מגיעים לפתרון
-
 print(2*2*2*3*5*7*11*13*17*19*23)
 
-#answer = 892371480
+#Answer = 892371480
+
+#a = 15499/94744
+# r_func(2*3*5*7*11*13*17*19*23) is greater than a.
+# r_func(2*3*5*7*11*13*17*19*23*29) is smaller than a.
+#For any n that is a product of consecutive primes (starting from 2) each of which appears exactly once in its factorisation,
+#The value of r_func(n) is the minimum between all numbers up to n.
+#Therefore the solution to the question will be between these two numbers, and after some trial and error we arrive at the solution.
