@@ -1,4 +1,5 @@
 import math
+
 def gcd(x,y):
     while x % y != 0:
         a = x
@@ -106,4 +107,5 @@ for D in range(2,1001):
             x = D
 print(x)
 
-#answer = 661
+#Answer = 661
+

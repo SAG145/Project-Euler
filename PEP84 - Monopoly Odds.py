@@ -1,4 +1,5 @@
 import random
+
 cc_squares = [2,17,33]
 ch_squares = [7,22,36]
 cc_go_to = [0,10] + [None]*14
@@ -102,4 +103,5 @@ for i in range(3):
     lst1.pop(j1)
 print(int(final_string))
 
-#answer = 101524
+#Answer = 101524
+

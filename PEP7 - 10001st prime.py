@@ -1,5 +1,5 @@
 import math
-prime_list = []
+
 def prime(n):
     a = True
     for i in range(2,int(math.sqrt(n))+1):
@@ -7,10 +7,13 @@ def prime(n):
             a = False
             break
     return a
+
+prime_list = []
 i = 2
 while len(prime_list)<10002:
     if prime(i):
         prime_list.append(i)
     i += 1
 print(prime_list[10000])
-# answer = 104743
+
+#Answer = 104743

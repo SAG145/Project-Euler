@@ -27,4 +27,5 @@ for c in s:
         current_number += c
 print(maximum_path(triangle))
 
-#answer = 7273
+#Answer = 7273
+

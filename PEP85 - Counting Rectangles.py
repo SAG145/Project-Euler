@@ -17,4 +17,5 @@ for x in range(1,100):
             area = x*y
 print(area)
 
-#answer = 2772
+#Answer = 2772
+

@@ -23,4 +23,5 @@ while convergent<100:
         convergent += 1
 print(sum_digits(a2))
 
-#answer = 272
+#Answer = 272
+

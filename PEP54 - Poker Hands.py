@@ -10,6 +10,7 @@ def copy_lists(lst1):
     for k in lst1:
         lst2.append(k)
     return lst2
+
 def three_of_a_kind(values):
     maxi = 0
     m_max = []
@@ -182,4 +183,5 @@ for round in rounds:
                 wins += 1
 print(wins)
 
-#answer = 376
+#Answer = 376
+

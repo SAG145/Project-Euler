@@ -1,4 +1,5 @@
 import math
+
 def sum_100_digits_sqrt(n):
     n1 = n*10**220
     guess = 0
@@ -22,4 +23,5 @@ for num in range(100):
         x += sum_100_digits_sqrt(num)
 print(x)
 
-#answer = 40886
+#Answer = 40886
+

@@ -1,4 +1,5 @@
 pita_triplet = []
+
 def sumone(tuple):
     sum = 0
     for a in tuple:
@@ -31,4 +32,5 @@ for l in l_list:
         single += 1
 print(single)
 
-#answer = 161667
+#Answer = 161667
+

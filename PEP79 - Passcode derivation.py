@@ -8,7 +8,8 @@ def copy_str(lst1,lst2=[]):
         else:
             lst2.append(str(i))
     return lst2
-#הרשימה lst זה מה שיוצא אחרי שמריצים את הפונקציה copy_str על list1
+
+#The list lst is what comes out after running the copy_str function on list1.
 
 def copy(lst,lst1=[]):
     for i in lst:
@@ -17,6 +18,7 @@ def copy(lst,lst1=[]):
         else:
             lst1.append(i)
     return lst1
+
 list2 = []
 for i in lst:
     list2.append([i[0],i[1]])
@@ -31,5 +33,6 @@ for l in listba:
                 listba.remove([str(l[0]),str(m[1])])
 print(len(listba),listba)
 
-#מכן עשיתי את זה על מחברת עם היגיון ובעזרת דיאגרמת Hesse
-#answer = 73162890
+#From here I did it with pencil and paper using a Hesse diagram.
+
+#Answer = 73162890

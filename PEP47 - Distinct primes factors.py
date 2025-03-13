@@ -1,4 +1,5 @@
 import math
+
 def prime(n):
     a = True
     for i in range(2,int(math.sqrt(n))+1):
@@ -21,6 +22,7 @@ def prime_factors(n):
         else:
             i += 1
     return prime_list
+
 i = 1
 while 1>0:
     if len(prime_factors(i)) == 4:
@@ -37,4 +39,6 @@ while 1>0:
             i += 2
     else:
         i += 1
-#answer = 134043
+
+#Answer = 134043
+

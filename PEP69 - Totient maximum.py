@@ -1,5 +1,5 @@
-#המספר שיהיו הכי פחות מספרים שקטנים ממנו וזרים לו(וככה n/euler(n) יהיה מקסימלי) הוא מספר שהוא מכפלה של כמה שיותר ראשוניים עוקבים
-#לכן עד 10 זה יהיה 6 = 2*3, עד 100 זה יהיה 30 = 2*3*5 וכן הלאה
-#עד 1000000 זה יהיה 510510 = 2*3*5*7*11*13*17
+#The number that has the fewest numbers smaller than it and that are coprime to it (and thus n/phi(n) will be maximal) is a number that is the product of as many consecutive primes as possible
+#So up to 10 it will be 6 = 2*3, up to 100 it will be 30 = 2*3*5 and so on.
+#Up to 1000000 it will be 510510 = 2*3*5*7*11*13*1.
 
-#answer = 510510
+#Answer = 510510

@@ -1,4 +1,5 @@
 import math
+
 def prime(n):
     a = True
     for i in range(2,int(math.sqrt(n))+1):
@@ -32,4 +33,6 @@ for k in range(-1000,1001):
             kmax = k
             lmax = l
 print(kmax*lmax)
-#answer = -59231
+
+#Answer = -59231
+

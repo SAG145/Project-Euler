@@ -4,4 +4,6 @@ for i in range(1,100):
         if len(str(i**k)) == k:
             x += 1
 print(x)
-#answer = 49
+
+#Answer = 49
+

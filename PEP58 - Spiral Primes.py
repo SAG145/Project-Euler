@@ -1,4 +1,5 @@
 import math
+
 def is_prime(n):
     if n == 1:
         return False
@@ -29,4 +30,5 @@ while True:
         print(side_length)
         break
 
-#answer = 26241
+#Answer = 26241
+

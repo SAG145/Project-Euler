@@ -1,4 +1,5 @@
 import math
+
 def divisors_sum(n):
     sum = 0
     for l in range(1,int(math.sqrt(n))+1):
@@ -30,4 +31,5 @@ for n in range(10000001):
         print(n)
         break
 
-#answer = 55374
+#Answer = 55374
+

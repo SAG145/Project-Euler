@@ -1,4 +1,5 @@
 import math
+
 def log(x,y):
     return math.log(y,int(x))
 
@@ -46,5 +47,6 @@ for k in pk:
 minis = list(dict.fromkeys(minis))
 print(sum(minis))
 
-#answer = 7587457
-#ה 500 וה 30000 הם אומדן לחסמים שבחרתי והם עבדו (אם כי אפשר לצמצם אותם עוד יותר)
+#Answer = 7587457
+
+#The 500 and 30,000 are estimates for the bounds, and they worked.

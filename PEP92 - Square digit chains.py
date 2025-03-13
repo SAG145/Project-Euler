@@ -11,9 +11,12 @@ def chain(n):
         return 1
     else:
         return chain(sum_digits_power_2(n))
+
 x = 0
 for i in range(1,10000000):
     if chain(i) == 89:
         x += 1
 print(x)
-#answer = 8581146
+
+#Answer = 8581146
+

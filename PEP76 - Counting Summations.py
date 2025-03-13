@@ -27,4 +27,5 @@ for i in range(101):
         index_list[i].append(j)
 print(parititions(100))
 
-#answer = 190569291
+#Answer = 190569291
+

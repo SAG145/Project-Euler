@@ -6,4 +6,5 @@ for i in range(101,1000):
             y = i*j
 print(y)
 
-#answer = 906609
+#Answer = 906609
+

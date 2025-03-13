@@ -1,4 +1,5 @@
 import math
+
 def is_right_triangle(dot1,dot2,dot3 = (0,0)):
     d1,d2,d3,d4 = dot1[0],dot1[1],dot2[0],dot2[1]
     a = d1**2+d2**2
@@ -26,6 +27,8 @@ def num_of_right_triangles(n):
                                 if is_right_triangle(c1,c2):
                                     x += 1
     return x//2
+
 print(num_of_right_triangles(50))
 
-#answer = 14234
+#Answer = 14234
+

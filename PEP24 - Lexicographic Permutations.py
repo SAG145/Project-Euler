@@ -1,4 +1,3 @@
-lst = []
 def repeating_digit(n):
     s = str(n)
     l = len(s)
@@ -17,4 +16,4 @@ for n in range(2701345689,10**10):
             print(n)
             break
 
-#answer = 2783915460
+#Answer = 2783915460

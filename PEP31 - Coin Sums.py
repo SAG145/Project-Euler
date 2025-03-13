@@ -15,4 +15,5 @@ for num1 in range(201):
                                                     if num1 + num2 * 2 + num5 * 5 + num10 * 10 + num20 * 20 + num50 * 50 + num100 * 100 == 200:
                                                         x += 1
 print(x)
-#ans = 73682
+
+#Answer = 73682

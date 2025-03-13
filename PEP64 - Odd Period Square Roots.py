@@ -1,4 +1,5 @@
 import math
+
 def gcd(x,y):
     while x % y != 0:
         a = x
@@ -82,7 +83,6 @@ def cf(n):
         if a_list[-1] == 2*math.floor(sqrt1):
             return a_list
 
-
 odd = 0
 for N in range(2,10000):
     if math.floor(math.sqrt(N))**2 != N:
@@ -90,4 +90,5 @@ for N in range(2,10000):
             odd += 1
 print(odd)
 
-#answer = 1322
+#Answer = 1322
+

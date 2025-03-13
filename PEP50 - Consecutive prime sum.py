@@ -1,4 +1,5 @@
 import math
+
 def prime(n):
     a = True
     for i in range(2,int(math.sqrt(n))+1):
@@ -31,4 +32,6 @@ for i in lst:
         num_x = num
         x = pn
 print(x)
-#answer = 997651
+
+#Answer = 997651
+

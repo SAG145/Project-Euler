@@ -1,4 +1,5 @@
 import math
+
 def divisors_sum(n):
     sum = -n
     for l in range(1,int(math.sqrt(n))+1):
@@ -8,6 +9,7 @@ def divisors_sum(n):
             else:
                 sum += l + n/l
     return int(sum)
+
 len_max_chain = 0
 minimax = 0
 for k in range(10,1000001):
@@ -35,4 +37,5 @@ for k in range(10,1000001):
                 chain_list.append(a)
 print(minimax)
 
-#answer = 14316
+#Answer = 14316
+

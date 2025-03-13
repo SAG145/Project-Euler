@@ -14,4 +14,6 @@ for i in range(1,101):
             x += 1
         k += 1
 print(x)
-#answer = 4075
+
+#Answer = 4075
+

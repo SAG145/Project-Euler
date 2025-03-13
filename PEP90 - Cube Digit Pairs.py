@@ -1,4 +1,5 @@
 first_cube = []
+
 def not_equal(lst):
     lst1 = []
     for k in lst:
@@ -68,4 +69,5 @@ for lst1 in first_cube:
                                             legal_cubes.append(final_list)
 print(len(legal_cubes))
 
-#answer = 1217
+#Answer = 1217
+

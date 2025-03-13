@@ -19,4 +19,6 @@ for i in range(10000):
         if func(i) == 55:
             x += 1
 print(x)
-#answer = 249
+
+#Answer = 249
+

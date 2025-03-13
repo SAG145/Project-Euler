@@ -16,4 +16,5 @@ for d in range(2,12001):
                     x += 1
 print(x)
 
-#answer = 7295372
+#Answer = 7295372
+

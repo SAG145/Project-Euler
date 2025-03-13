@@ -7,7 +7,7 @@ def collatz(n):
             n = n*3+1
         i += 1
     return i
-    
+
 y = 0
 x = 0
 for i in range(1,1000000):
@@ -17,4 +17,5 @@ for i in range(1,1000000):
         x = i
 print(x)
 
-#answer = 837799
+#Answer = 837799
+

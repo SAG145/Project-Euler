@@ -1,4 +1,5 @@
 import copy
+
 def string(lst_of_sets):
     s = ""
     for set in lst_of_sets:
@@ -50,4 +51,5 @@ for perm in perm_10:
             max_string = string(lst_to_sets(arrangement))
 print(max_string)
 
-#answer = 6531031914842725
+#Answer = 6531031914842725
+

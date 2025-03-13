@@ -1,4 +1,5 @@
 import math
+
 def pitagoras(a,b):
     c = int(math.sqrt(a**2+b**2))
     if a**2 + b**2 == c**2:
@@ -18,4 +19,6 @@ for p in range(12,1001):
     if len(lst)/2 > x:
         x = int(len(lst)/2)
 print(x)
-#answer = 840
+
+#Answer = 840
+

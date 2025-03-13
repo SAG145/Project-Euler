@@ -1,5 +1,6 @@
 import math
 import random
+
 def all_bool_primes_below_n(n):
     primes_bool = [False, False] + [True] * (n - 2)
     for k in range(2, int(math.sqrt(n)) + 1):
@@ -29,9 +30,7 @@ def con_prime(bool_primes,p,q):
             return True
     return False
 
-
 bool_primes = all_bool_primes_below_n(10**8)
-print(perf_counter() - start)
 primes = []
 for n in range(10**6):
     if bool_primes[n]:
@@ -75,5 +74,5 @@ for i in range(4,len(primes)):
                                     breaking = True
                                     break
 
-#answer = 26033
+#Answer = 26033
 #This code was written after the problem was solved because the original code was lost.

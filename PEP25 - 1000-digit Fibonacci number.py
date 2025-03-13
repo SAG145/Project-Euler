@@ -1,4 +1,5 @@
 import math
+
 def fib(n):
     f1 = 0
     f2 = 1
@@ -9,8 +10,11 @@ def fib(n):
         f2 = f3
         f3 += a
     return f3
+
 for i in range(10000):
     if len(str(fib(i)))>999:
         print(i)
         break
-#answer = 4782
+
+#Answer = 4782
+

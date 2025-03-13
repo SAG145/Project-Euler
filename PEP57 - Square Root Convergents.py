@@ -39,6 +39,7 @@ def squ2_rec_expansions(target,step = 1,num = fraction(1,2)):
         num.plus(two)
         num1.divided(num)
         return squ2_rec_expansions(target,step + 1, num1)
+
 x = 0
 for k in range(1,1001):
     squ2k = squ2_rec_expansions(k,1,fraction(1,2))
@@ -46,4 +47,5 @@ for k in range(1,1001):
         x += 1
 print(x)
 
-#answer = 153
+#Answer = 153
+

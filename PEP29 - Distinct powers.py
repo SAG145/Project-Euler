@@ -7,4 +7,6 @@ for i in range(2,101):
         else:
             lst.append(n)
 print(len(lst))
-#answer = 9183
+
+#Answer = 9183
+

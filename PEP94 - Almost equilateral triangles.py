@@ -1,5 +1,6 @@
 import math
-perimeters_sum = 16 #הקוד נכתב על בסיס תצפיות אמפיריות על תוצאות בבדיקה יסודית
+
+perimeters_sum = 16
 ratio_list = [3,8,33]
 for k in range(20):
     if k % 2 == 0:
@@ -18,4 +19,4 @@ for r in range(len(ratio_list)-1):
         break
 print(int(perimeters_sum))
 
-#answer = 518408346
+#Answer = 518408346

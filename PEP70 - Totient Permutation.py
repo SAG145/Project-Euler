@@ -7,6 +7,7 @@ def is_prime(n):
         if n % k == 0:
             return False
     return True
+
 def prime_factors_without_repetitions(n,primes_list = []):
     if n % 2 == 0:
         if 2 not in primes_list:
@@ -25,7 +26,6 @@ def prime_factors_without_repetitions(n,primes_list = []):
                     if k not in primes_list:
                         primes_list.append(k)
                     return prime_factors_without_repetitions(n / k, primes_list)
-
 
 def is_permutation(n1,n2):
     lst1,lst2 = [],[]
@@ -51,4 +51,6 @@ for i in range(3,10**7):
             x = i/e
             min = i
 print(min)
-#answer = 8319823
+
+#Answer = 8319823
+

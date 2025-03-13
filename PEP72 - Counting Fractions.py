@@ -1,0 +1,39 @@
+import math
+
+def all_min_pf_below_n(n):
+    min_pf = []
+    for _ in range(n):
+        min_pf.append((0,))
+    for k in range(2,int(math.sqrt(n)) + 1):
+        if min_pf[k][0] == 0:
+            for l in range(2*k,n,k):
+                if min_pf[l][0] == 0:
+                    min_pf[l] = (k,)
+    return min_pf
+
+def all_prime_factorisations_below_n(n):
+    min_pf = all_min_pf_below_n(n)
+    pf = [0,[]]
+    for k in range(2,n):
+        mpf = min_pf[k][0]
+        if mpf == 0:
+            pf.append((k,))
+        else:
+            pf.append(pf[k // mpf] + (mpf,))
+    return pf
+
+def euler_totient(n,pf):
+    for p in list(dict.fromkeys(pf)):
+        n = n // p*(p - 1)
+    return n
+
+all_pf = all_prime_factorisations_below_n(10**6 + 1)
+s = 0
+for d in range(2,10**6 + 1):
+    s += euler_totient(d,all_pf[d])
+
+print(s)
+
+#Answer = 303963552391
+
+#This code was written after the problem was solved because the original code was lost.

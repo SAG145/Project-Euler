@@ -1,4 +1,5 @@
 import math
+
 def prime(n):
     a = True
     for i in range(2,int(math.sqrt(n))+1):
@@ -20,4 +21,6 @@ while 1>0:
             print(i)
             break
     i += 2
-#answer = 5777
+
+#Answer = 5777
+

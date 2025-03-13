@@ -17,4 +17,6 @@ x = 0
 for s in lst:
     x += s
 print(x)
-#answer = 45228
+
+#Answer = 45228
+

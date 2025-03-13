@@ -8,4 +8,6 @@ for k in lst:
     y += k
     x += y
 print(x)
-#answer = 669171001
+
+#Answer = 669171001
+

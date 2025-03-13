@@ -1,4 +1,5 @@
 import math
+
 def prime(n):
     a = True
     if n==1:
@@ -33,4 +34,6 @@ for i in range(1,5000):
             if prime(k+i) and contains(kstr,str(k+i)):
                 if prime(k+2*i) and contains(kstr,str(k+2*i)):
                     print(k,k+i,k+2*i)
-#answer = 296962999629
+
+#Answer = 296962999629
+

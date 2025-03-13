@@ -5,7 +5,7 @@ def fib(n):
         return 2
     else:
         return fib(n-1) + fib(n-2)
-        
+
 i = 1
 x = 0
 while fib(i)<4000000:
@@ -14,4 +14,5 @@ while fib(i)<4000000:
     i +=1
 print(x)
 
-# answer = 4613732
+# Answer = 4613732
+

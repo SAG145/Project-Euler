@@ -6,6 +6,7 @@ def same_digits(str1,str2):
     for j in str2:
         lst2.append(j)
     return sorted(lst1) == sorted(lst2)
+
 i = 1
 while 1>0:
     k = str(i)
@@ -17,4 +18,6 @@ while 1>0:
                         print(i)
                         break
     i += 1
-#answer = 142857
+
+#Answer = 142857
+

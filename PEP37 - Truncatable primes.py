@@ -1,4 +1,5 @@
 import math
+
 def prime(n):
     a = True
     if n==1:
@@ -51,4 +52,6 @@ while len(list1) !=11:
             x += i
     i += 1
 print(x)
-#answer = 748317
+
+#Answer = 748317
+

@@ -32,4 +32,5 @@ for c in s:
         current_number += c
 print(minimum_path(matrix))
 
-#answer = 427337
+#Answer = 427337
+

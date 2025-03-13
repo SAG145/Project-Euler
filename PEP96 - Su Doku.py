@@ -137,4 +137,5 @@ for sudoku in cells_list:
     x += solve(sudoku,possibility)
 print(x)
 
-#answer = 24702
+#Answer = 24702
+

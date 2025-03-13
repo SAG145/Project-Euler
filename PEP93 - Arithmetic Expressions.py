@@ -65,6 +65,7 @@ def polishing(list1):
         if m % 1 == 0 and m not in lst:
             lst.append(int(m))
     return sorted(lst)
+
 max_len = 0
 x = 0
 for a in range(1,7):
@@ -80,4 +81,5 @@ for a in range(1,7):
                         break
 print(x)
 
-#answer = 1258
+#Answer = 1258
+

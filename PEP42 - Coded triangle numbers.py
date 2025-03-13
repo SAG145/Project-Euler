@@ -11,4 +11,6 @@ for k in words:
     if a in trlist:
         x += 1
 print(x)
-#answer = 162
+
+#Answer = 162
+

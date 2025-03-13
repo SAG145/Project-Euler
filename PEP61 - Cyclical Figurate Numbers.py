@@ -1,4 +1,5 @@
 import copy
+
 def triangle_3(n):
     return n*(n + 1) // 2
 
@@ -110,4 +111,5 @@ for k in final:
     sum += int(k[0] + k[1])
 print(sum)
 
-#answer = 28684
+#Answer = 28684
+

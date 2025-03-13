@@ -6,4 +6,6 @@ for i in range(1000000):
     if neto_bin_str(i) == neto_bin_str(i)[::-1] and str(i) == str(i)[::-1]:
         x += i
 print(x)
-#answer = 872187
+
+#Answer = 872187
+

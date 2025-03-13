@@ -18,4 +18,5 @@ for i in range(1,1000000000000000):
         print(triangle(i))
         break
 
-#answer = 76576500
+#Answer = 76576500
+
