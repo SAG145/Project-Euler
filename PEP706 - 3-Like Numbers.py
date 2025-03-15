@@ -59,6 +59,6 @@ for i in range(729):
         s += poss[i]
 print(s % mod)
 
-#answer = 884837055
+#Answer = 884837055
 
 #Time: 1:30
