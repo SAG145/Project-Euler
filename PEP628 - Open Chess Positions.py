@@ -13,3 +13,5 @@ def f(n):
 print(f(10**8))
 
 #Answer = 210286684
+
+#Time: 3:30
